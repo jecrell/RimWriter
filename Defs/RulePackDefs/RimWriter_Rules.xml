@@ -1,0 +1,106 @@
+<Defs>
+
+  <!-- Different physical description roots for different kinds of artworks. 
+      Added to artworks with tales and taleless art.-->
+  
+
+  
+  <RulePackDef>
+    <defName>NamerArtTypedBook</defName>
+    <include>
+	  <li>NamerArtFurniture</li>
+	  <li>NamerArtSarcophagusPlate</li>
+	  <li>ArtNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>art_name(p=500)->[positiveconcept]</li>
+        <li>art_name(p=500)->[badassconcept]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>NamerArtTypedJournal</defName>
+    <include>
+	  <li>NamerArtTypedBase</li>
+	  <li>ArtNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>art_name(p=500)->[journal]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerArtTypedBase</defName>
+	<rulePack>
+      <rulesStrings>
+	    <li>book->book</li>
+	    <li>book->novel</li>
+	    <li>book->short story</li>
+	    <li>book->tome</li>
+		<li>written->written</li>
+		<li>written->typed</li>
+	    <li>journal->journal</li>
+	    <li>journal->diary</li>
+	    <li>journal->memoir</li>
+	    <li>journal->log</li>
+		<li>holds->holds</li>
+		<li>holds->contains</li>
+		<li>holds->involves</li>
+		<li>holds->consists of</li>
+		<li>tells->tells of</li>
+        <li>tells->retells about</li>
+        <li>tells->discloses about</li>
+        <li>tells->explains about</li>		
+        <li>tells->mentions</li>
+        <li>tells->reveals</li>
+        <li>tells->divulges</li>
+        <li>tells->makes known</li>		
+        <li>text->depiction</li>
+        <li>text->text</li>
+        <li>text->tale</li>
+        <li>text->story</li>
+        <li>text->note</li>
+        <li>text->short story</li>
+        <li>text->lengthy description</li>
+		<li>text->poem</li>
+	  </rulesStrings>
+	</rulePack>
+  </RulePackDef>
+  
+  
+  <RulePackDef>
+    <defName>ArtDescription_TypedBook</defName>
+	<include>
+	  <li>NamerArtTypedBase</li>
+	  <li>ArtNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [book] [tells] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [book] [holds] a [text] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->In this [book] is a [text] of [image]. [desc_sentence_group].</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+    <defName>ArtDescription_TypedJournal</defName>
+	<include>
+	  <li>NamerArtTypedBase</li>
+	  <li>ArtNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root->This [journal] [tells] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [journal] [holds] a [text] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root->This [journal] is a [text] of [image]. [desc_sentence_group]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  
+</Defs>

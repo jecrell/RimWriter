@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c53b85a1-4a33-44e6-9697-882a8c441464" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </ComponentIndustrial>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Building_Boiler.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Building_Boiler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+              <folding>
+                <marker date="1526835119083" expanded="true" signature="6:133" ph="..." />
+                <marker date="1526835119083" expanded="true" signature="236:11190" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="284:425" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="462:1584" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="1462:1574" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="2441:4188" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="2556:4178" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="2662:2954" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="3021:3371" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="3437:3857" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="3923:4163" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="4232:5431" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="4288:4450" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="4827:5206" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="5472:5710" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="6435:7119" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="6521:7082" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="7203:7449" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="7565:8435" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="7628:8425" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="7689:8369" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8226:8351" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8472:9683" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8562:8851" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8698:8837" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8892:9673" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="8954:9037" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="9058:9145" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="9230:9659" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="9771:10165" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="10025:10155" ph="{...}" />
+                <marker date="1526835119083" expanded="true" signature="10208:10384" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompWaterTank.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTank.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <marker date="1526835942205" expanded="false" signature="6:100" ph="..." />
+                <marker date="1526835942205" expanded="true" signature="124:5194" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="188:5192" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="222:433" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="233:429" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="274:302" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="461:515" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="472:511" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="546:628" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="557:624" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="673:747" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="684:743" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="788:1179" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1120:1175" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1251:1535" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1452:1531" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1573:1827" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1597:1673" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1711:1756" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="1869:1998" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2039:2211" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2104:2207" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2255:2347" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2404:2490" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2438:2486" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2541:3278" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2641:2793" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="2860:2993" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3025:3219" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3091:3212" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3337:4137" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3391:3421" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3460:3780" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3806:4117" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="3852:3960" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4002:4111" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4267:4403" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4428:4484" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4563:4591" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4632:4660" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4689:4755" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4815:5188" ph="{...}" />
+                <marker date="1526835942205" expanded="true" signature="4905:5045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompProperties_Steam.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_Steam.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding>
+                <marker date="1526190426825" expanded="false" signature="6:65" ph="..." />
+                <marker date="1526190426825" expanded="true" signature="89:1316" ph="{...}" />
+                <marker date="1526190426825" expanded="true" signature="146:1314" ph="{...}" />
+                <marker date="1526190426825" expanded="true" signature="229:401" ph="{...}" />
+                <marker date="1526190426825" expanded="true" signature="304:366" ph="{...}" />
+                <marker date="1526190426825" expanded="true" signature="1098:1183" ph="/* public bool startElectricalFires; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompProperties_Water.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_Water.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+              <folding>
+                <marker date="1526048554511" expanded="false" signature="6:46" ph="..." />
+                <marker date="1526048554511" expanded="true" signature="70:963" ph="{...}" />
+                <marker date="1526048554511" expanded="true" signature="127:961" ph="{...}" />
+                <marker date="1526048554511" expanded="true" signature="210:382" ph="{...}" />
+                <marker date="1526048554511" expanded="true" signature="285:347" ph="{...}" />
+                <marker date="1526048554511" expanded="true" signature="745:830" ph="/* public bool startElectricalFires; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompBetterRottable.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CompBetterRottable.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding>
+                <marker date="1524895789465" expanded="false" signature="6:100" ph="..." />
+                <marker date="1524895789465" expanded="true" signature="124:5815" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="177:5813" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="240:2592" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="334:760" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="867:2530" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="1159:1508" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="1240:1490" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="1751:1855" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="1876:2516" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="1933:2206" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="2061:2175" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="2231:2498" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="2353:2467" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="2637:5157" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="2719:5147" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="3109:3406" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="3185:3388" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="3629:4252" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="3747:4145" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="3887:3948" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="4359:5133" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="4471:4717" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="4862:5115" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="5207:5597" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="5267:5562" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="5478:5548" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="5634:5807" ph="{...}" />
+                <marker date="1524895789465" expanded="true" signature="5727:5797" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Building_Refrigerator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Building_Refrigerator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2698">
+              <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+              <folding>
+                <marker date="1525880299263" expanded="false" signature="6:167" ph="..." />
+                <marker date="1525880299263" expanded="true" signature="273:9576" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="654:746" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="780:862" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="894:1129" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="920:1081" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="1163:1444" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="1189:1394" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="1504:2080" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="1905:2070" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="2215:2349" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="2631:4009" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="2716:2797" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="3182:3386" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="3403:3577" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="3636:3769" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4058:4350" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4174:4236" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4282:4343" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4427:4823" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4555:4655" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4666:4766" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4880:5650" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="4956:5640" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="5030:5626" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="5196:5608" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="5734:5968" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="6018:8133" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="6063:6093" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="6189:6499" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="6595:6905" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="6945:7308" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="7403:7719" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="7814:8128" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="8196:8479" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="8220:8288" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="8296:8364" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="8525:8670" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="8715:9319" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="9128:9200" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="9208:9279" ph="{...}" />
+                <marker date="1525880299263" expanded="true" signature="9363:9570" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Building_InternalStorage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Building_InternalStorage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <marker date="1511590014007" expanded="false" signature="6:114" ph="..." />
+                <marker date="1511590014007" expanded="true" signature="138:4046" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="229:4044" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="444:715" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="470:705" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="532:648" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="764:1033" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="790:1023" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="871:972" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1124:1229" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1281:1326" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1368:1688" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1440:1498" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1595:1653" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1729:2023" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="1896:2013" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2066:2432" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2217:2265" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2384:2420" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2514:3095" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2632:2917" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="2934:3059" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3156:3486" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3218:3450" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3556:3679" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3730:3790" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3847:3926" ph="{...}" />
+                <marker date="1511590014007" expanded="true" signature="3977:4038" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TexButton.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TexButton.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <marker date="1526199298154" expanded="false" signature="6:45" ph="..." />
+                <marker date="1526199298154" expanded="true" signature="69:771" ph="{...}" />
+                <marker date="1526199298154" expanded="true" signature="133:769" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Building_StreetLamp.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Building_StreetLamp.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <marker date="1494057158634" expanded="false" signature="6:114" ph="..." />
+                <marker date="1494057158634" expanded="true" signature="138:2060" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="181:2058" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="407:816" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="854:965" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1003:1400" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1056:1390" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1120:1241" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1277:1376" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1460:1589" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1626:1777" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1706:1767" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1817:1865" ph="{...}" />
+                <marker date="1494057158634" expanded="true" signature="1908:2052" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThingWithComps_Glower.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ThingWithComps_Glower.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="26" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <marker date="1494057153171" expanded="false" signature="6:114" ph="..." />
+                <marker date="1494057153171" expanded="true" signature="138:1310" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="189:1308" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="282:302" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="339:452" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="497:732" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="555:722" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="606:707" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="771:1117" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="1042:1107" ph="{...}" />
+                <marker date="1494057153171" expanded="true" signature="1160:1302" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </ComponentIndustrial>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Flip</find>
+      <find>Sustainer</find>
+      <find>steamhiss</find>
+      <find>CanDraw</find>
+      <find>leak</find>
+      <find>this.$this.</find>
+      <find>Dust</find>
+      <find>ToString(</find>
+      <find>Vent</find>
+      <find>Power</find>
+      <find>print</find>
+      <find>Water</find>
+      <find>Print</find>
+      <find>Need</find>
+      <find>showFuelGizmo</find>
+      <find>Throw</find>
+      <find>Gizmo_RefuelableFuelStatus</find>
+      <find>\nusing RimWriter\.SteamPowerSystems\.Steam\;</find>
+      <find>Pressure</find>
+      <find>curFuelLevel</find>
+      <find>water</find>
+      <find>Steam</find>
+      <find>Coal</find>
+      <find>hiss</find>
+      <find>Building_WaterTank</find>
+      <find>targetFuelLevelConfigurable</find>
+      <find>instance.</find>
+      <find>steamleak</find>
+      <find>Leak</find>
+      <find>curStorageSettings</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>CompWaterTank</replace>
+      <replace>storedWater</replace>
+      <replace>CompProperties_WaterTank</replace>
+      <replace>WaterNetManager</replace>
+      <replace>WaterNet</replace>
+      <replace>waterNetManager</replace>
+      <replace>map.GetComponent&lt;WaterNetGrid&gt;()</replace>
+      <replace>map.GetComponent&lt;WaterNetManager&gt;()</replace>
+      <replace>CompWater</replace>
+      <replace>Map.GetComponent&lt;WaterNetManager&gt;()</replace>
+      <replace>ConnectsToWater()</replace>
+      <replace>LitersPerTick</replace>
+      <replace>tanks</replace>
+      <replace>water</replace>
+      <replace>WaterConnectionMaker</replace>
+      <replace>PlaceWorker_WaterPipe</replace>
+      <replace>compProperties_Water</replace>
+      <replace>WaterTank</replace>
+      <replace>CompWaterBoiler</replace>
+      <replace>SoundDef.Named(&quot;RimWriter_FlipSwitch&quot;)</replace>
+      <replace>Water</replace>
+      <replace>Steam</replace>
+      <replace>Gizmo_BoilerStatus</replace>
+      <replace />
+      <replace>curPressureLevel</replace>
+      <replace>Building_Boiler</replace>
+      <replace>instance.</replace>
+      <replace>__instance.</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Call-of-Cthulhu---Industrial-Age\Source\SteamPowerSystems\Steam</dir>
+      <dir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Call-of-Cthulhu---Industrial-Age\Source\SteamPowerSystems</dir>
+      <dir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Call-of-Cthulhu---Industrial-Age\Source\SteamPowerSystems\Water</dir>
+    </dirStrings>
+  </ComponentIndustrial>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ac/0adbd4ba/IntermittentSteamSprayer.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56949969-7CB4-47A0-B676-3040819B8597/7c/8d0cb3db/Vector3.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_Steam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_SteamTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamPlant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamElectricPlant.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTrader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTransmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/PlaceWorker_SteamPipe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e9/d0910c9d/CompPowerTrader.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamConnectionMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNetGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNetMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/d6/ac48f4c3/CompPower.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/WorkGiver_PatchLeaks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Building_SteamTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/JobDriver_PatchLeaks.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/PlaceWorker_SteamPump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/iLeakable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTrader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Building_Boiler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/PlaceWorker_WaterPipe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_WaterTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterConnectionMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/97189225-5796-4DBE-9EE1-D48317EB6033/10/90a7c255/Enumerable.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTransmitter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/be/7c41c459/Reservation.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/IVentable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/2c/198ad964/GraphicUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterPump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_Water.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetMaker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/0d/abb600c7/Rot4.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/a5/8464c60f/ReservationManager.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Command_SetTargetFuelLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ce/fb02bdf6/ReservationUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bf/6abb1fa7/CompRefuelable.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Building_StreetLamp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TuneDef.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Graphic_CustomFlicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_TurnOffGramophone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_AutoPlayListenGramophone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CompProperties_StorageGraphic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_Woodstove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlaceWorker_OnCopperVein.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_Radio.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e1/19dd02f7/PowerConnectionMaker.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/9f/389426ac/Graphic_LinkedTransmitter.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/e9/4b4730fb/CompRottable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_ListenToGramophone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CompBetterRottable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_InternalStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WorldComponent_Tunes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ThingWithComps_Glower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/b3/f5850a45/FlickUtility.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Tools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/Building_WaterTank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/8d/16d1bc42/PowerNetGraphics.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Building_Gramophone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_FreeWrite.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ba/2838f943/PowerOverlayMats.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/PlaceWorker_WaterPump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_Refrigerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_Drill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CompHeatPusherRefuelable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_PlayGramophone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlaceWorker_OnCoalVein.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/JobDriver_Vent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/WorkGiver_Vent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterOverlayMats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Building_Bookcase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JoyGiver_ListenToBuilding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/HarmonyPatches.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/WaterOverlayMats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/TexButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/JobDriver_PlayInstrument.cs" root0="FORCE_HIGHLIGHTING" />
+  </ComponentIndustrial>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ba/2838f943/PowerOverlayMats.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/Graphic_LinkedWaterOverlay.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/WaterConnectionMaker.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompSteam.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_Water.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterBoiler.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/WaterNet.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/Building_WaterTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/WaterNetGrid.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTrader.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_WaterTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/Building_WaterTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_Steam.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Leakable.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/iLeakable.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/Building_SteamTank.cs" />
+        <option value="$PROJECT_DIR$/TexButton.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/IVentable.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNetManager.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/WaterUtility.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/PlaceWorker_WaterPump.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/WorkGiver_Vent.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_SteamTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/WaterOverlayMats.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/9f/389426ac/Graphic_LinkedTransmitter.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetManager.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/JobDriver_Vent.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/WaterOverlayMats.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTrader.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompHeatPressureHandler.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamPlant.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompRefuelablePressureTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/Gizmo_BoilerStatus.cs" />
+        <option value="$PROJECT_DIR$/Building_Woodstove.cs" />
+        <option value="$PROJECT_DIR$/CompHeatPusherRefuelable.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterPump.cs" />
+        <option value="$PROJECT_DIR$/Tools.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/Command_SetTargetFuelLevel.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteam.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompWater.cs" />
+        <option value="$PROJECT_DIR$/HarmonyPatches.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNet.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamElectricPlant.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/be/7c41c459/Reservation.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/WorkGiver_PatchLeaks.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/JobDriver_PatchLeaks.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/Building_Boiler.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/SteamUtility.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTank.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamGenerator.cs" />
+        <option value="$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTank.cs" />
+      </list>
+    </option>
+  </ComponentIndustrial>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </ComponentIndustrial>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="7" />
+    <option name="y" value="67" />
+    <option name="width" value="1088" />
+    <option name="height" value="797" />
+  </ComponentIndustrial>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RimWriter (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="RimWriter (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="RimWriter" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </ComponentIndustrial>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RimworldModReleaseTool.exe" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Program Files (x86)/Steam/steamapps/common/RimWorld/ModsWorkspace/Call-of-Cthulhu---Industrial-Age/Source/SteamPowerSystems/Water/CompWaterTank.cs" />
+  </ComponentIndustrial>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </ComponentIndustrial>
+  <component name="RunManager" selected=".NET Executable.Deployer">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
+      <option name="EXE_PATH" value="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Call-of-Cthulhu---Industrial-Age\RimworldModReleaseTool.exe" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Call-of-Cthulhu---Industrial-Age&quot;" />
+      <option name="WORKING_DIRECTORY" value="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\Call-of-Cthulhu---Industrial-Age" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
+      <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </ComponentIndustrial>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </ComponentIndustrial>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c53b85a1-4a33-44e6-9697-882a8c441464" name="Default" comment="" />
+      <created>1514680076257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514680076257</updated>
+      <workItem from="1514680078538" duration="17008000" />
+      <workItem from="1514729157381" duration="2399000" />
+      <workItem from="1519492382943" duration="1391000" />
+      <workItem from="1521363961192" duration="1732000" />
+      <workItem from="1523887639426" duration="3693000" />
+      <workItem from="1524017027557" duration="934000" />
+      <workItem from="1524823290077" duration="4398000" />
+      <workItem from="1524911885297" duration="1508000" />
+      <workItem from="1524915500334" duration="4477000" />
+      <workItem from="1525054759083" duration="3047000" />
+      <workItem from="1525440461741" duration="1620000" />
+      <workItem from="1525525492720" duration="20875000" />
+      <workItem from="1525875268821" duration="5784000" />
+      <workItem from="1525881543258" duration="13189000" />
+      <workItem from="1526040892628" duration="18675000" />
+      <workItem from="1526118440584" duration="63361000" />
+      <workItem from="1526298274684" duration="15812000" />
+      <workItem from="1526793056968" duration="24644000" />
+      <workItem from="1527391008983" duration="6316000" />
+      <workItem from="1527770188934" duration="619000" />
+      <workItem from="1528475529661" duration="1216000" />
+    </task>
+    <servers />
+  </ComponentIndustrial>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="212698000" />
+  </ComponentIndustrial>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </ComponentIndustrial>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23814656" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19226637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39875776" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3114224" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22952586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </ComponentIndustrial>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </ComponentIndustrial>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </ComponentIndustrial>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </ComponentIndustrial>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2793">
+          <caret line="151" column="53" lean-forward="false" selection-start-line="151" selection-start-column="53" selection-end-line="151" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/2c/198ad964/GraphicUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="32" column="60" lean-forward="false" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/9f/389426ac/Graphic_LinkedTransmitter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_SteamTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetGrid.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1508">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNetManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterNetManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/WorkGiver_Vent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/IVentable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/JobDriver_Vent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterOverlayMats.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="21" column="54" lean-forward="false" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamPlant.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompHeatPressureHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompRefuelablePressureTank.cs" />
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Gizmo_BoilerStatus.cs" />
+    <entry file="file://$PROJECT_DIR$/Building_Woodstove.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompProperties_StorageGraphic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompHeatPusherRefuelable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterPump.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tools.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/WaterUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="66" lean-forward="false" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Building_Drill.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="69" lean-forward="false" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/Building_WaterTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="95" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWater.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Command_SetTargetFuelLevel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="35" column="71" lean-forward="false" selection-start-line="35" selection-start-column="71" selection-end-line="35" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bf/6abb1fa7/CompRefuelable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HarmonyPatches.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamNet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/be/7c41c459/Reservation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="65" column="15" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/a5/8464c60f/ReservationManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/ce/fb02bdf6/ReservationUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/WaterOverlayMats.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/WorkGiver_PatchLeaks.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/SteamUtility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamElectricPlant.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/JobDriver_PatchLeaks.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="40" column="34" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3895">
+          <caret line="211" column="13" lean-forward="false" selection-start-line="211" selection-start-column="13" selection-end-line="211" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Building_SteamTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="52" column="12" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamTrader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3249">
+          <caret line="175" column="13" lean-forward="false" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
+          <folding>
+            <marker date="1526315039263" expanded="false" signature="6:80" ph="..." />
+            <marker date="1526315039263" expanded="true" signature="104:5936" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="148:5934" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="178:452" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="189:231" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="238:448" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="310:359" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="393:443" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="487:564" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="498:560" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="587:2171" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="598:636" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="643:2167" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="682:707" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="761:1588" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="816:929" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="966:1076" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="1118:1165" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="1380:1448" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="1597:2162" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="1645:1692" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="1911:1980" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2010:2115" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2200:2519" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2211:2515" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2576:2800" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2664:2700" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2760:2796" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="2865:2980" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3025:3127" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3168:3276" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3311:3754" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3371:3750" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3446:3549" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3601:3745" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3631:3739" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="3795:4134" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4175:4416" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4366:4412" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4451:4539" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4586:4648" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4699:5035" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4750:4858" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="4866:4977" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="5085:5385" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="5219:5381" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="5431:5554" ph="{...}" />
+            <marker date="1526315039263" expanded="true" signature="5473:5550" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompSteamGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1881">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <marker date="1526835749626" expanded="true" signature="6:95" ph="..." />
+            <marker date="1526835749626" expanded="true" signature="119:6124" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="157:277" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="336:6122" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="642:1606" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="737:1547" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="1685:2160" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="2090:2150" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="2201:2322" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="2363:3410" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="2431:3399" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="2864:2974" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="3040:3369" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="3467:3537" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="3626:3701" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="3748:3897" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="3945:4546" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4309:4371" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4388:4536" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4755:5974" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4818:5964" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4879:5933" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="4990:5915" ph="{...}" />
+            <marker date="1526835749626" expanded="true" signature="5062:5832" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompWaterTank.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1526835942205" expanded="false" signature="6:100" ph="..." />
+            <marker date="1526835942205" expanded="true" signature="124:5194" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="188:5192" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="222:433" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="233:429" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="274:302" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="461:515" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="472:511" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="546:628" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="557:624" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="673:747" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="684:743" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="788:1179" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1120:1175" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1251:1535" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1452:1531" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1573:1827" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1597:1673" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1711:1756" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="1869:1998" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2039:2211" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2104:2207" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2255:2347" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2404:2490" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2438:2486" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2541:3278" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2641:2793" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="2860:2993" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3025:3219" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3091:3212" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3337:4137" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3391:3421" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3460:3780" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3806:4117" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="3852:3960" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4002:4111" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4267:4403" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4428:4484" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4563:4591" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4632:4660" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4689:4755" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4815:5188" ph="{...}" />
+            <marker date="1526835942205" expanded="true" signature="4905:5045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/CompProperties_Steam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <marker date="1526190426825" expanded="false" signature="6:65" ph="..." />
+            <marker date="1526190426825" expanded="true" signature="89:1316" ph="{...}" />
+            <marker date="1526190426825" expanded="true" signature="146:1314" ph="{...}" />
+            <marker date="1526190426825" expanded="true" signature="229:401" ph="{...}" />
+            <marker date="1526190426825" expanded="true" signature="304:366" ph="{...}" />
+            <marker date="1526190426825" expanded="true" signature="1098:1183" ph="/* public bool startElectricalFires; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Water/CompProperties_Water.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="42" lean-forward="false" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <marker date="1526048554511" expanded="false" signature="6:46" ph="..." />
+            <marker date="1526048554511" expanded="true" signature="70:963" ph="{...}" />
+            <marker date="1526048554511" expanded="true" signature="127:961" ph="{...}" />
+            <marker date="1526048554511" expanded="true" signature="210:382" ph="{...}" />
+            <marker date="1526048554511" expanded="true" signature="285:347" ph="{...}" />
+            <marker date="1526048554511" expanded="true" signature="745:830" ph="/* public bool startElectricalFires; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CompBetterRottable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <marker date="1524895789465" expanded="false" signature="6:100" ph="..." />
+            <marker date="1524895789465" expanded="true" signature="124:5815" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="177:5813" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="240:2592" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="334:760" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="867:2530" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="1159:1508" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="1240:1490" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="1751:1855" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="1876:2516" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="1933:2206" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="2061:2175" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="2231:2498" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="2353:2467" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="2637:5157" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="2719:5147" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="3109:3406" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="3185:3388" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="3629:4252" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="3747:4145" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="3887:3948" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="4359:5133" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="4471:4717" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="4862:5115" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="5207:5597" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="5267:5562" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="5478:5548" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="5634:5807" ph="{...}" />
+            <marker date="1524895789465" expanded="true" signature="5727:5797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Building_Refrigerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2698">
+          <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding>
+            <marker date="1525880299263" expanded="false" signature="6:167" ph="..." />
+            <marker date="1525880299263" expanded="true" signature="273:9576" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="654:746" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="780:862" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="894:1129" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="920:1081" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="1163:1444" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="1189:1394" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="1504:2080" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="1905:2070" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="2215:2349" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="2631:4009" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="2716:2797" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="3182:3386" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="3403:3577" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="3636:3769" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4058:4350" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4174:4236" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4282:4343" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4427:4823" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4555:4655" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4666:4766" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4880:5650" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="4956:5640" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="5030:5626" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="5196:5608" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="5734:5968" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="6018:8133" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="6063:6093" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="6189:6499" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="6595:6905" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="6945:7308" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="7403:7719" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="7814:8128" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="8196:8479" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="8220:8288" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="8296:8364" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="8525:8670" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="8715:9319" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="9128:9200" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="9208:9279" ph="{...}" />
+            <marker date="1525880299263" expanded="true" signature="9363:9570" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Building_InternalStorage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <marker date="1511590014007" expanded="false" signature="6:114" ph="..." />
+            <marker date="1511590014007" expanded="true" signature="138:4046" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="229:4044" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="444:715" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="470:705" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="532:648" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="764:1033" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="790:1023" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="871:972" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1124:1229" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1281:1326" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1368:1688" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1440:1498" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1595:1653" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1729:2023" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="1896:2013" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2066:2432" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2217:2265" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2384:2420" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2514:3095" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2632:2917" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="2934:3059" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3156:3486" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3218:3450" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3556:3679" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3730:3790" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3847:3926" ph="{...}" />
+            <marker date="1511590014007" expanded="true" signature="3977:4038" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TexButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1526199298154" expanded="false" signature="6:45" ph="..." />
+            <marker date="1526199298154" expanded="true" signature="69:771" ph="{...}" />
+            <marker date="1526199298154" expanded="true" signature="133:769" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SteamPowerSystems/Steam/Building_Boiler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <marker date="1526835119083" expanded="true" signature="6:133" ph="..." />
+            <marker date="1526835119083" expanded="true" signature="236:11190" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="284:425" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="462:1584" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="1462:1574" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="2441:4188" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="2556:4178" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="2662:2954" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="3021:3371" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="3437:3857" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="3923:4163" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="4232:5431" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="4288:4450" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="4827:5206" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="5472:5710" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="6435:7119" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="6521:7082" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="7203:7449" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="7565:8435" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="7628:8425" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="7689:8369" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8226:8351" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8472:9683" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8562:8851" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8698:8837" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8892:9673" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="8954:9037" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="9058:9145" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="9230:9659" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="9771:10165" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="10025:10155" ph="{...}" />
+            <marker date="1526835119083" expanded="true" signature="10208:10384" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Building_StreetLamp.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1494057158634" expanded="false" signature="6:114" ph="..." />
+            <marker date="1494057158634" expanded="true" signature="138:2060" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="181:2058" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="407:816" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="854:965" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1003:1400" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1056:1390" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1120:1241" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1277:1376" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1460:1589" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1626:1777" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1706:1767" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1817:1865" ph="{...}" />
+            <marker date="1494057158634" expanded="true" signature="1908:2052" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThingWithComps_Glower.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <marker date="1494057153171" expanded="false" signature="6:114" ph="..." />
+            <marker date="1494057153171" expanded="true" signature="138:1310" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="189:1308" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="282:302" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="339:452" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="497:732" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="555:722" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="606:707" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="771:1117" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="1042:1107" ph="{...}" />
+            <marker date="1494057153171" expanded="true" signature="1160:1302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </ComponentIndustrial>
+</project>

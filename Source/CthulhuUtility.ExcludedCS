@@ -1,0 +1,117 @@
+﻿// ----------------------------------------------------------------------
+// These are basic usings. Always let them be here.
+// ----------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Text;
+
+// ----------------------------------------------------------------------
+// These are RimWorld-specific usings. Activate/Deactivate what you need:
+// ----------------------------------------------------------------------
+using UnityEngine;         // Always needed
+//using VerseBase;         // Material/Graphics handling functions are found here
+using Verse;               // RimWorld universal objects are here (like 'Building')
+using Verse.AI;          // Needed when you do something with the AI
+using Verse.AI.Group;
+using Verse.Sound;       // Needed when you do something with Sound
+using Verse.Noise;       // Needed when you do something with Noises
+using RimWorld;            // RimWorld specific functions are found here (like 'Building_Battery')
+using RimWorld.Planet;   // RimWorld specific functions for world creation
+using System.Reflection;
+//using RimWorld.SquadAI;  // RimWorld specific functions for squad brains 
+
+namespace ArkhamEstate
+{
+    static public class CthulhuUtility
+    {
+        public const string SanityLossDef = "CosmicHorror_SanityLoss";
+        public const string AltSanityLossDef = "Cults_SanityLoss";
+
+        public static bool modCheck = false;
+        public static bool loadedCosmicHorrors = false;
+
+        public static void SpawnThingDefOfCountAt(ThingDef of, int count, IntVec3 at)
+        {
+            while (count > 0)
+            {
+
+
+                Thing thing = ThingMaker.MakeThing(of, null);
+
+                thing.stackCount = Math.Min(count, of.stackLimit);
+                GenPlace.TryPlaceThing(thing, at, ThingPlaceMode.Near);
+                count -= thing.stackCount;
+            }
+        }
+
+        public static void SpawnPawnsOfCountAt(PawnKindDef kindDef, IntVec3 at, int count, Faction fac = null, bool berserk = false)
+        {
+            for (int i = 1; i <= count; i++)
+            {
+                if ((from cell in GenAdj.CellsAdjacent8Way(at)
+                     where at.Walkable()
+                     select cell).TryRandomElement(out at))
+                {
+                    Pawn pawn = PawnGenerator.GeneratePawn(kindDef, fac);
+                    if (GenPlace.TryPlaceThing(pawn, at, ThingPlaceMode.Near, null))
+                    {
+                        continue;
+                    }
+                    Find.WorldPawns.PassToWorld(pawn, PawnDiscardDecideMode.Discard);
+                    if (berserk) pawn.mindState.mentalStateHandler.TryStartMentalState(MentalStateDefOf.Berserk);
+                }
+            }
+        }
+
+        public static void ApplySanityLoss(Pawn pawn, float sanityLoss=0.3f, float sanityLossMax=1.0f)
+        {
+            string sanityLossDef;
+            sanityLossDef = AltSanityLossDef;
+            if (IsCosmicHorrorsLoaded()) sanityLossDef = SanityLossDef;
+
+            Hediff pawnSanityHediff = pawn.health.hediffSet.GetFirstHediffOfDef(DefDatabase<HediffDef>.GetNamed(sanityLossDef));
+            if (pawnSanityHediff != null)
+            {
+                if (pawnSanityHediff.Severity <= sanityLossMax)
+                {
+                    pawnSanityHediff.Severity += sanityLoss;
+                }
+            }
+            else
+            {
+                Hediff sanityLossHediff = HediffMaker.MakeHediff(DefDatabase<HediffDef>.GetNamed(sanityLossDef), pawn, null);
+                sanityLossHediff.Severity = sanityLoss;
+                pawn.health.AddHediff(sanityLossHediff, null, null);
+            }
+        }
+        
+        public static bool IsCosmicHorrorsLoaded()
+        {
+
+            if (!modCheck) ModCheck();
+            return loadedCosmicHorrors;
+        }
+
+        public static void ModCheck()
+        {
+            foreach (ModContentPack ResolvedMod in LoadedModManager.RunningMods)
+            {
+                if (ResolvedMod.Name.Contains("Call of Cthulhu - Cosmic Horrors"))
+                {
+                    Log.Message("Loaded - Call of Cthulhu - Cosmic Horrors");
+                    loadedCosmicHorrors = true;
+                    modCheck = true;
+                    return;
+                }
+            }
+            Log.Message("Not Loaded - Call of Cthulhu - Cosmic Horrors");
+            loadedCosmicHorrors = false;
+            modCheck = true;
+            return;
+        }
+
+
+    }
+}

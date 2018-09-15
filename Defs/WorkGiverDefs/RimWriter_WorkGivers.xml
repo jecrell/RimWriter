@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<WorkGiverDef>
+	<defName>RimWriter_ReturnBooks</defName>
+	<label>return books</label>
+	<giverClass>RimWriter.WorkGiver_ReturnBooks</giverClass>
+	<workType>Hauling</workType>
+	<verb>return</verb>
+	<gerund>returning</gerund>
+	<priorityInType>70</priorityInType>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+</WorkGiverDef>
+
+
+  <WorkGiverDef>
+    <defName>DoBillsWrite</defName>
+    <label>write</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Art</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RimWriter_TableTypewriter</li>
+    </fixedBillGiverDefs>
+    <verb>write</verb>
+    <gerund>writing at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+  
+</Defs>

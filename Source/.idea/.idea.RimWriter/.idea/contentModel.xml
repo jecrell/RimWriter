@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\RimWriter\Assemblies" t="ExcludeRecursive" />
+    <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\RimWriter\Source" t="IncludeRecursive">
+      <e p="Building_Bookcase.cs" t="Include" />
+      <e p="Building_InternalStorage.cs" t="Include" />
+      <e p="Building_Typewriter.cs" t="Include" />
+      <e p="CompProperties_StorageGraphic.cs" t="Include" />
+      <e p="CompStorageGraphic.cs" t="Include" />
+      <e p="ITab_Inventory.cs" t="Include" />
+      <e p="Item_JournalPage.cs" t="Include" />
+      <e p="JobDriver_FreeWrite.cs" t="Include" />
+      <e p="JobDriver_ReadABook.cs" t="Include" />
+      <e p="JobDriver_ReturnBook.cs" t="Include" />
+      <e p="JoyGiver_ReadABook.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+      </e>
+      <e p="RimWriter.csproj" t="IncludeRecursive" />
+      <e p="RimWriter.sln" t="IncludeFlat" />
+      <e p="RoomRoleWorker_Library.cs" t="Include" />
+      <e p="ThingBook.cs" t="Include" />
+      <e p="WorkGiver_ReturnBooks.cs" t="Include" />
+    </e>
+    <e p="C:\Users\mattw\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_RimWriter.-1040807417.00" t="ExcludeRecursive" />
+  </component>
+</project>
