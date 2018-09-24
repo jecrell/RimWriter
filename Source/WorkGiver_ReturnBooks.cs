@@ -33,10 +33,16 @@ namespace RimWriter
             return Danger.Deadly;
         }
 
+        public bool MeetsExceptionList(Thing t)
+        {
+            return t?.def?.defName == "Cults_Grimoire" ||
+                   t?.def?.defName == "Cults_TheKingInYellow";
+        }
+
         public override Job JobOnThing(Pawn pawn, Thing t, bool forced = false)
         {
             ThingBook book = t as ThingBook;
-            if (book == null)
+            if (!MeetsExceptionList(t) && book == null)
             {
                 return null;
             }
@@ -44,7 +50,7 @@ namespace RimWriter
             {
                 return null;
             }
-            Building_InternalStorage Building_InternalStorage = this.FindBestStorage(pawn, book);
+            Building_InternalStorage Building_InternalStorage = this.FindBestStorage(pawn, t);
             if (Building_InternalStorage == null)
             {
                 JobFailReason.Is("NoEmptyGraveLower".Translate());
@@ -56,7 +62,7 @@ namespace RimWriter
             };
         }
 
-        private Building_InternalStorage FindBestStorage(Pawn p, ThingBook book)
+        private Building_InternalStorage FindBestStorage(Pawn p, Thing book)
         {
             Predicate<Thing> predicate = (Thing m) => !m.IsForbidden(p) && p.CanReserveNew(m) && ((Building_InternalStorage)m).Accepts(book);
             Func<Thing, float> priorityGetter = delegate (Thing t)

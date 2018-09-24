@@ -44,7 +44,11 @@ namespace RimWriter
             float statValue = base.TargetThingA.GetStatValue(StatDefOf.JoyGainFactor, true);
             Pawn pawn = this.pawn;
             float extraJoyGainFactor = statValue;
-            JoyUtility.JoyTickCheckEnd(pawn, JoyTickFullJoyAction.EndJob, extraJoyGainFactor);
+            if (TargetThingA is GuideBook gBook)
+            {
+                gBook.Teach(pawn);
+            }
+            JoyUtility.JoyTickCheckEnd(pawn, JoyTickFullJoyAction.GoToNextToil, extraJoyGainFactor);
         }
 
         protected override IEnumerable<Toil> MakeNewToils()
@@ -74,6 +78,9 @@ namespace RimWriter
             wait.FailOnCannotTouch(TargetIndex.B, PathEndMode.Touch);
             wait.tickAction = this.ReadTickAction;
             yield return wait;
+            Toil libraryThoughtToil = new Toil();
+            libraryThoughtToil.initAction = delegate { RimWriterUtility.TryGainLibraryThought(pawn); };
+            yield return libraryThoughtToil;
             yield return Toils_Reserve.Release(TargetIndex.B);
             yield break;
         }

@@ -1,40 +1,163 @@
 <Defs>
 
-  <!-- Different physical description roots for different kinds of artworks. 
-      Added to artworks with tales and taleless art.-->
-  
-
-  
   <RulePackDef>
-    <defName>NamerArtTypedBook</defName>
+    <defName>RimWriterNameUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>BookTitle->Words/Nouns/Books</li>
+        <li>JournalTitle->Words/Nouns/Journals</li>
+        <li>ScrollTitle->Words/Nouns/Scrolls</li>
+        <li>TabletTitle->Words/Nouns/Tablets</li>
+      </rulesFiles>
+	  <rulesStrings>
+        <li>book_name_numeric->[maybe_letter][Digit][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][Digit][Digit][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][Digit][Digit][Digit][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][RomanNumeral][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][RomanNumeral][Digit][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][Digit][RomanNumeral][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][Digit][RomanNumeral][Digit][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][RomanNumeral][Digit][RomanNumeral][maybe_letter]</li>
+        <li>book_name_numeric->[maybe_letter][RomanNumeral][Digit][Digit][RomanNumeral][maybe_letter]</li>
+
+        <li>maybe_letter(p=8)-></li>
+        <li>maybe_letter->[Letter]</li>
+        <li>maybe_letter->[Letter][Letter]</li>
+
+        <li>maybe_a(p=3)-></li>
+        <li>maybe_a->a</li>
+
+        <li>maybe_adjective(p=5)-></li>
+        <li>maybe_adjective(p=2)->[AdjectiveAngsty]</li>
+        <li>maybe_adjective->[AdjectiveBadass]</li>
+        <li>maybe_adjective->[Color]</li>
+	  </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>RimWriterNamerBook</defName>
     <include>
-	  <li>NamerArtFurniture</li>
-	  <li>NamerArtSarcophagusPlate</li>
-	  <li>ArtNameUtility</li>
+      <li>RimWriterNameUtility</li>
     </include>
     <rulePack>
       <rulesStrings>
-        <li>art_name(p=500)->[positiveconcept]</li>
-        <li>art_name(p=500)->[badassconcept]</li>
+        <!-- General -->
+        <li>r_art_name(p=4)->[ConceptAny]</li>
+        <li>r_art_name(p=4)->[BookTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[BookTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [BookTitle]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
+        <!-- Person. High probability; if we can use these we want to -->
+        <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [BookTitle]</li>
+        <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic]</li>
+        <li>r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[maybe_a] [BookTitle] [Trans] [ANYPAWN_nameIndef]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>RimWriterNamerScroll</defName>
+    <include>
+      <li>RimWriterNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- General -->
+        <li>r_art_name(p=4)->[ConceptAny]</li>
+        <li>r_art_name(p=4)->[ScrollTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[ScrollTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [ScrollTitle]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
+        <!-- Person. High probability; if we can use these we want to -->
+        <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [ScrollTitle]</li>
+        <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic]</li>
+        <li>r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[maybe_a] [ScrollTitle] [Trans] [ANYPAWN_nameIndef]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
   
   <RulePackDef>
-    <defName>NamerArtTypedJournal</defName>
+    <defName>RimWriterNamerTablet</defName>
     <include>
-	  <li>NamerArtTypedBase</li>
-	  <li>ArtNameUtility</li>
+      <li>RimWriterNameUtility</li>
     </include>
     <rulePack>
       <rulesStrings>
-        <li>art_name(p=500)->[journal]</li>
+        <!-- General -->
+        <li>r_art_name(p=4)->[ConceptAny]</li>
+        <li>r_art_name(p=4)->[TabletTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[TabletTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [TabletTitle]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [ConceptAny]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [TerrainFeature]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Vegetable]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Game]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Animal]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Gore]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [NaturalObject]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [PersonFamily]</li>
+        <li>r_art_name->[maybe_a] [maybe_adjective] [Enemy]</li>
+        <!-- Person. High probability; if we can use these we want to -->
+        <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [TabletTitle]</li>
+        <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic]</li>
+        <li>r_art_name(p=3)->[PersonalCharacteristic] of [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[maybe_a] [TabletTitle] [Trans] [ANYPAWN_nameIndef]</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
 
   <RulePackDef>
-    <defName>NamerArtTypedBase</defName>
+    <defName>RimWriterNamerJournal</defName>
+    <include>
+      <li>RimWriterNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <!-- General -->
+        <li>r_art_name(p=4)->[JournalTitle] [Trans] [ConceptAny]</li>
+        <li>r_art_name(p=4)->[maybe_a] [maybe_adjective] [JournalTitle]</li>
+        <!-- Numeric -->
+        <li>r_art_name(p=2)->[JournalTitle] [Trans] [ConceptAny] [journal_volume]</li>
+        <li>r_art_name->[book_name_numeric] [Trans] [ANYPAWN_nameIndef]</li>
+        <!-- Person. High probability; if we can use these we want to -->
+        <li>r_art_name(p=6)->[ANYPAWN_nameIndef]'s [JournalTitle]</li>
+        <li>r_art_name(p=3)->[maybe_a] [ANYPAWN_nameIndef] [Trans] [Color]</li>
+        <li>r_art_name(p=3)->[ANYPAWN_nameIndef]'s [PersonalCharacteristic] [JournalTitle]</li>
+        <li>r_art_name(p=3)->[ConceptAny] [Trans] [ANYPAWN_nameIndef]</li>
+        <li>r_art_name(p=3)->[maybe_a] [JournalTitle] [Trans] [ANYPAWN_nameIndef]</li>
+		<li>journal_volume->Vol. [book_name_numeric]</li>
+		<li>journal_volume->[book_name_numeric] Edition</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>RimWriterNamerWrittenBase</defName>
 	<rulePack>
       <rulesStrings>
 	    <li>book->book</li>
@@ -58,49 +181,375 @@
         <li>tells->mentions</li>
         <li>tells->reveals</li>
         <li>tells->divulges</li>
-        <li>tells->makes known</li>		
-        <li>text->depiction</li>
+        <li>tells->makes known</li>
         <li>text->text</li>
-        <li>text->tale</li>
-        <li>text->story</li>
-        <li>text->note</li>
-        <li>text->short story</li>
-        <li>text->lengthy description</li>
-		<li>text->poem</li>
 	  </rulesStrings>
 	</rulePack>
   </RulePackDef>
   
   
   <RulePackDef>
-    <defName>ArtDescription_TypedBook</defName>
+    <defName>RimWriterArtDescription_Book</defName>
 	<include>
-	  <li>NamerArtTypedBase</li>
-	  <li>ArtNameUtility</li>
+	  <li>RimWriterNamerWrittenBase</li>
+	  <li>RimWriterNameUtility</li>
+	  <li>RimWriterArtDescriptionUtility_Global</li>
 	</include>
     <rulePack>
       <rulesStrings>
-        <li>physical_description_root->This [book] [tells] [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->This [book] [holds] a [text] of [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->In this [book] is a [text] of [image]. [desc_sentence_group].</li>
+        <li>physical_description_root(p=500)->This [BookTitle] [tells] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root(p=500)->This [BookTitle] [holds] a [text] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root(p=500)->In this [BookTitle] is a [text] of [image]. [desc_sentence_group].</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
   
   <RulePackDef>
-    <defName>ArtDescription_TypedJournal</defName>
+    <defName>RimWriterArtDescription_Journal</defName>
 	<include>
-	  <li>NamerArtTypedBase</li>
-	  <li>ArtNameUtility</li>
+	  <li>RimWriterNamerWrittenBase</li>
+	  <li>RimWriterNameUtility</li>
+	  <li>RimWriterArtDescriptionUtility_Journal</li>
 	</include>
     <rulePack>
       <rulesStrings>
-        <li>physical_description_root->This [journal] [tells] [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->This [journal] [holds] a [text] of [image]. [desc_sentence_group]</li>
-        <li>physical_description_root->This [journal] is a [text] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root(p=500)->This [JournalTitle] [tells] [image]. [desc_sentence_group]</li>
+        <li>physical_description_root(p=500)->This [JournalTitle] [holds] a [text] of [image]. [desc_sentence_group]</li>
+        <li>physical_description_root(p=500)->This [JournalTitle] is a [text] of [image]. [desc_sentence_group]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+    
+  <RulePackDef>
+    <defName>RimWriterArtDescription_Guide</defName>
+	<include>
+	  <li>RimWriterNamerWrittenBase</li>
+	  <li>RimWriterNameUtility</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+        <li>physical_description_root(p=500)->This skillbook [lays_out] some [simple] rules. [rules_sentence_group].</li>
+		<li>rules_sentence_group->[rule_one]. [exp] [rule_two]. [exp] [rule_three]</li>
+		<li>rule_one->The first lesson [teaches_to] [rule]</li>
+		<li>rule_two->The next lesson [teaches_to] [rule]</li>
+		<li>rule_two->In the following chapter, it [teaches_to] [rule]</li>
+		<li>rule_two->After that, it [teaches_to] [rule]</li>
+		<li>rule_three->And the most important lesson [teaches_to] [rule]</li>
+		<li>exp(p=3)->.</li>
+		<li>exp->The logic is [hard_to_understand].</li>
+		<li>exp->The reasoning is [hard_to_understand].</li>
+		<li>exp->The lesson is [hard_to_understand].</li>
+		<li>exp->The chapter is [hard_to_understand].</li>
+		<li>hard_to_understand->hard to understand</li>
+		<li>hard_to_understand->easily understood</li>
+		<li>hard_to_understand->difficult to grasp</li>
+		<li>hard_to_understand->incoherent at best</li>
+		<li>hard_to_understand->explained with stick figures</li>
+		<li>hard_to_understand->demonstrated with flowcharts</li>
+		<li>hard_to_understand->explained using cartoons</li>
+		<li>hard_to_understand->full of spelling mistakes</li>
+		<li>simple->simple</li>
+		<li>simple->easy</li>
+		<li>simple->tough</li>
+		<li>simple->complicated</li>
+		<li>lays_out->lays out</li>
+		<li>lays_out->establishes</li>
+		<li>lays_out->sets the foundation for</li>
+		<li>lays_out->contains</li>
+		<li>teaches->teaches</li>
+		<li>teaches->instructs</li>
+		<li>teaches->recommends</li>
+		<li>teaches->encourages</li>
+		<li>teaches->cautions</li>
+		<li>teaches_to(p=0.5)->[teaches] to</li>
+		<li>teaches_to->[teaches] [students] to</li>
+		<li>students->students</li>
+		<li>students->one</li>
+		<li>students->readers</li>
+		<li>rule->never trust a [Animal][situation]</li>
+		<li>rule->never become a [PersonJob]</li>
+		<li>rule->never trust a [Character][situation]</li>
+		<li>rule->put faith into [PersonalCharacteristic][situation]</li>
+		<li>rule->put faith into one's [Bodypart][situation]</li>
+		<li>rule->follow the path of [ConceptBadass][situation]</li>
+		<li>rule->always have a [Weapon] nearby[situation]</li>
+		<li>rule->always have a [Vegetable] nearby[situation]</li>
+		<li>rule->understand that [NaturalObject]s are always [AdjectiveAny]</li>
+		<li>rule->breathe deeply[situation]</li>
+		<li>situation(p=2)-></li>
+		<li>situation-> when [surrounded_by] [enimal_adj] [enimal]s</li>
+		<li>situation-> when encountering [ConceptAngsty]</li>
+		<li>situation-> when between a [Character] and a [Vegetable]</li>
+		<li>situation-> when in a [TerrainFeature]</li>
+		<li>situation-> when playing [Game]</li>
+		<li>enimal->[Animal]</li>
+		<li>enimal->[Enemy]</li>
+		<li>enimal_adj->[Quantity_adjphrase]</li>
+		<li>enimal_adj->[AdjectiveAny]</li>
+		<li>surrounded_by->surrounded by</li>
+		<li>surrounded_by->trapped with</li>
+		<li>surrounded_by->sneaking behind</li>
+		<li>surrounded_by->hiding underneath</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
   
+  <RulePackDef>
+    <defName>RimWriterArtDescriptionUtility_Global</defName>
+    <include>
+	  <li>RimWriterNamerWrittenBase</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+	  
+        <!--=== artextra_clause ===-->
+        <!-- Subimage included -->
+        <li>artextra_clause(p=500)->the [text] lovingly details [subimageplural]</li>
+        <li>artextra_clause(p=500)->the author of the [text] focuses on [subimageplural]</li>
+        <li>artextra_clause(p=500)->there is [subimagesingle] that [takes_part_in] [book_trope]</li>
+        <li>artextra_clause(p=500)->the characters are in front of [subimageany]</li>
+        <li>artextra_clause(p=500)->the ending of the [text] [book_endings_with] [subimageany]</li>
+        <li>artextra_clause(p=500)->the ending of the [text] [book_endings]</li>
+        <!-- Scene is near terrain -->
+        <li>artextra_clause(p=500)->the [text] takes place in the middle of a [Community]</li>
+        <li>artextra_clause(p=500)->the [text] takes place on the outskirts of a [Community]</li>
+        <li>artextra_clause(p=500)->the [text] takes place inside a [Community] built near a [TerrainFeature]</li>
+        <!-- Pawn in side position -->
+        <li>artextra_clause(p=500)->a [Character] [takes_part_in] [book_trope]</li>
+        <li>artextra_clause(p=500)->a [Character] accidentally [takes_part_in] [book_trope]</li>
+        <li>artextra_clause(p=500)->a [PAWN_adj] [Character] [takes_part_in] [book_trope]</li>
+        <li>artextra_clause(p=500)->[Quantity_adjphrase] [Character]s are involved with [book_trope]</li>
+        <li>artextra_clause(p=500)->[Quantity_adjphrase] [PAWN_adj] [Character]s appear in [book_trope]</li>
+        <li>artextra_clause(p=500)->a [Animal] [takes_part_in] [book_trope]</li>
+        
+		<li>book_endings->has a [book_ending_adj] ending</li>
+		<li>book_endings->ends with a big party</li>
+		<li>book_endings->has a [book_ending_adj] ending where everybody lives</li>
+		<li>book_endings->has a [book_ending_adj] ending where everybody dies</li>
+		<li>book_endings->ends with everybody going out for [book_food]</li>
+		<li>book_endings->has a [book_ending_adj] conclusion</li>
+		<li>book_endings->revealed it was all just a dream</li>
+		<li>book_endings->has a bittersweet ending</li>
+		<li>book_endings->ties up all the loose ends... or does it?</li>
+		
+		<li>book_ending_adj->happy</li>
+		<li>book_ending_adj->sad</li>
+		<li>book_ending_adj->thrilling</li>
+		<li>book_ending_adj->shocking</li>
+		<li>book_ending_adj->twist</li>
+		
+		<li>book_food->tacos</li>
+		<li>book_food->shawarma</li>
+		<li>book_food->hamburgers</li>
+		<li>book_food->barbeque</li>
+		<li>book_food->veggie food</li>
+		
+		<li>book_endings_with->has a happy ending with</li>
+		<li>book_endings_with->has a thrilling conclusion with</li>
+		<li>book_endings_with->has a shocking ending with</li>
+		<li>book_endings_with->has a a twist at the end with</li>
+		
+		
+        <li>takes_part_in(p=500)->takes part in</li>
+        <li>takes_part_in(p=500)->is involved with</li>
+        <li>takes_part_in(p=500)->is forced into</li>
+				
+        <li>idles(p=500)->appears</li>
+        <li>idles(p=500)->is shown</li>
+        <li>idles(p=500)->fades in</li>
+		
+        <li>book_trope(p=500)->a love triangle with a [Character] and a [Character]</li>
+        <li>book_trope(p=500)->a plot to assassinate a [Character]</li>
+        <li>book_trope(p=500)->time travelling to a future where [ConceptAny] no longer exists</li>
+        <li>book_trope(p=500)->being stranded on a [TerrainFeature] with a [Character]</li>
+        <li>book_trope(p=500)->teaching [Animal]s about [ConceptAny]</li>
+        <li>book_trope(p=500)->spending the night in a room with a [Character] and a single bed to share</li>
+        <li>book_trope(p=500)->a curse that can only be cured by a kiss of [ConceptAny]</li>
+        <li>book_trope(p=500)->kidnapping a [Character] for [ConceptAny]</li>
+        <li>book_trope(p=500)->an uncompromising situation, but is suddenly saved by [book_deusex]</li>
+        <li>book_trope(p=500)->a life or death situation</li>
+        <li>book_trope(p=500)->a cult of [ConceptAny]</li>
+        <li>book_trope(p=500)->saving the world</li>
+        <li>book_trope(p=500)->a conspiracy</li>
+        <li>book_trope(p=500)->running away with a [Character]</li>
+		
+		<li>book_deusex->[Animal]</li>
+		<li>book_deusex->[Character]</li>
+
+        <!--=== style_clause ===-->
+        <li>style_clause(p=504)->the work [symbolizes] [ConceptAny]</li>
+        <li>artextra_clause(p=500)->[subimagesingle] [book_trope] [symbolizes] [ConceptAny]</li>
+        <li>style_clause(p=500)->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
+        <li>style_clause(p=500)->the work is executed in a [artstyle_adj] style</li>
+        <li>style_clause(p=500)->the work has a [artstyle_adj] feeling and a [composition] structure</li>
+        <li>style_clause(p=500)->the overall composition is [composition]</li>
+        <li>style_clause(p=500)->the style is [artstyle_adj] with [artstyle_adj] elements</li>
+        <li>style_clause(p=500)->the [text] somehow expresses both [ConceptAny] and [ConceptAny]</li>
+        <li>style_clause(p=500)->the [text] contrasts [ConceptAny] with [ConceptAny]</li>
+        <li>style_clause(p=500)->the [composition] structure of the [text] almost conflicts with its [artstyle_adj] style</li>
+		
+        <li>symbolizes(p=500)->symbolizes</li>
+        <li>symbolizes(p=500)->seems to symbolize</li>
+        <li>symbolizes(p=500)->represents</li>
+        <li>symbolizes(p=500)->seems to represent</li>
+        <li>symbolizes(p=500)->seems to express</li>
+        <li>symbolizes(p=500)->reminds the reader of</li>
+        <li>symbolizes(p=500)->conveys the emotions of</li>
+        <li>symbolizes(p=500)->makes the reader think of</li>
+        <li>symbolizes(p=500)->represents the authors's</li>
+        <li>symbolizes(p=500)->suggests the concept of</li>
+
+        <li>depicts(p=500)->depicts</li>
+        <li>depicts(p=500)->shows</li>
+        <li>depicts(p=500)->portrays</li>
+        <li>depicts(p=500)->resembles</li>
+        <li>depicts(p=500)->illustrates</li>
+        <li>depicts(p=500)->represents</li>
+
+        <li>depiction(p=500)->depiction</li>
+        <li>depiction(p=500)->[text]</li>
+        <li>depiction(p=500)->portrayal</li>
+        <li>depiction(p=500)->representation</li>
+        <li>depiction(p=500)->writing</li>
+        <li>depiction(p=500)->work</li>
+       
+        <li>composition(p=500)->descriptive</li>
+        <li>composition(p=500)->expository</li>
+        <li>composition(p=500)->narrative</li>
+        <li>composition(p=500)->unbalanced</li>
+        <li>composition(p=500)->well-balanced</li>
+        <li>composition(p=500)->dynamic</li>
+        <li>composition(p=500)->persuasive</li>
+        <li>composition(p=500)->dry</li>
+        <li>composition(p=500)->focused</li>
+        
+        <li>artstyle_adj(p=500)->unoriginal</li>
+        <li>artstyle_adj(p=500)->simple</li>
+        <li>artstyle_adj(p=500)->complex and realistic</li>
+        <li>artstyle_adj(p=500)->surrealistic</li>
+        <li>artstyle_adj(p=500)->classical</li>
+        <li>artstyle_adj(p=500)->modern</li>
+        <li>artstyle_adj(p=500)->symbolic</li>
+        <li>artstyle_adj(p=500)->amateurish yet inviting</li>
+        <li>artstyle_adj(p=500)->Dickensian</li>
+        <li>artstyle_adj(p=500)->Jane Austen-esque</li>
+        <li>artstyle_adj(p=500)->expressionistic</li>
+        <li>artstyle_adj(p=500)->Victorian</li>
+        <li>artstyle_adj(p=500)->Orwellian</li>
+        <li>artstyle_adj(p=500)->Kafkaesque</li>
+        <li>artstyle_adj(p=500)->Gatsbyian</li>
+        <li>artstyle_adj(p=500)->violent</li>
+        <li>artstyle_adj(p=500)->abstract</li>
+        <li>artstyle_adj(p=500)->hyper-realistic</li>
+        <li>artstyle_adj(p=500)->pulp</li>
+        <li>artstyle_adj(p=500)->minimalistic</li>
+        <li>artstyle_adj(p=500)->comic</li>
+        <li>artstyle_adj(p=500)->purist</li>
+        <li>artstyle_adj(p=500)->romantic</li>
+        <li>artstyle_adj(p=500)->erotic</li>
+        <li>artstyle_adj(p=500)->sensual</li>
+        <li>artstyle_adj(p=500)->heartfelt</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  
+  <RulePackDef>
+    <defName>RimWriterArtDescriptionUtility_Journal</defName>
+    <include>
+	  <li>RimWriterNamerWrittenBase</li>
+	</include>
+    <rulePack>
+      <rulesStrings>
+	  
+        <!--=== artextra_clause ===-->
+        <!-- Subimage included -->
+        <li>artextra_clause(p=500)->the [text] lovingly details [subimageplural]</li>
+        <li>artextra_clause(p=500)->the author of the [text] focuses on [subimageplural]</li>
+        <li>artextra_clause(p=500)->the characters are in front of [subimageany]</li>
+        <!-- Scene is near terrain -->
+        <li>artextra_clause(p=500)->the [text] takes place in the middle of a [Community]</li>
+        <li>artextra_clause(p=500)->the [text] takes place on the outskirts of a [Community]</li>
+        <li>artextra_clause(p=500)->the [text] takes place inside a [Community] built near a [TerrainFeature]</li>
+        
+        <!--=== style_clause ===-->
+        <li>style_clause(p=504)->the work [symbolizes] [ConceptAny]</li>
+        <li>artextra_clause(p=500)->[subimagesingle] [book_trope] [symbolizes] [ConceptAny]</li>
+        <li>style_clause(p=500)->the work is infused with the idea of [ConceptAny] and is done in a [artstyle_adj] style</li>
+        <li>style_clause(p=500)->the work is executed in a [artstyle_adj] style</li>
+        <li>style_clause(p=500)->the work has a [artstyle_adj] feeling and a [composition] structure</li>
+        <li>style_clause(p=500)->the overall composition is [composition]</li>
+        <li>style_clause(p=500)->the style is [artstyle_adj] with [artstyle_adj] elements</li>
+        <li>style_clause(p=500)->the [text] somehow expresses both [ConceptAny] and [ConceptAny]</li>
+        <li>style_clause(p=500)->the [text] contrasts [ConceptAny] with [ConceptAny]</li>
+        <li>style_clause(p=500)->the [composition] structure of the [text] almost conflicts with its [artstyle_adj] style</li>
+		
+        <li>symbolizes(p=500)->symbolizes</li>
+        <li>symbolizes(p=500)->seems to symbolize</li>
+        <li>symbolizes(p=500)->represents</li>
+        <li>symbolizes(p=500)->seems to represent</li>
+        <li>symbolizes(p=500)->seems to express</li>
+        <li>symbolizes(p=500)->reminds the reader of</li>
+        <li>symbolizes(p=500)->conveys the emotions of</li>
+        <li>symbolizes(p=500)->makes the reader think of</li>
+        <li>symbolizes(p=500)->represents the authors's</li>
+        <li>symbolizes(p=500)->suggests the concept of</li>
+
+        <li>depicts(p=500)->depicts</li>
+        <li>depicts(p=500)->shows</li>
+        <li>depicts(p=500)->portrays</li>
+        <li>depicts(p=500)->resembles</li>
+        <li>depicts(p=500)->illustrates</li>
+        <li>depicts(p=500)->represents</li>
+
+        <li>depiction(p=500)->depiction</li>
+        <li>depiction(p=500)->[text]</li>
+        <li>depiction(p=500)->portrayal</li>
+        <li>depiction(p=500)->representation</li>
+        <li>depiction(p=500)->writing</li>
+        <li>depiction(p=500)->work</li>
+       
+        <li>composition(p=500)->descriptive</li>
+        <li>composition(p=500)->expository</li>
+        <li>composition(p=500)->narrative</li>
+        <li>composition(p=500)->unbalanced</li>
+        <li>composition(p=500)->well-balanced</li>
+        <li>composition(p=500)->dynamic</li>
+        <li>composition(p=500)->persuasive</li>
+        <li>composition(p=500)->dry</li>
+        <li>composition(p=500)->focused</li>
+        
+        <li>artstyle_adj(p=500)->unoriginal</li>
+        <li>artstyle_adj(p=500)->simple</li>
+        <li>artstyle_adj(p=500)->complex and realistic</li>
+        <li>artstyle_adj(p=500)->surrealistic</li>
+        <li>artstyle_adj(p=500)->classical</li>
+        <li>artstyle_adj(p=500)->modern</li>
+        <li>artstyle_adj(p=500)->symbolic</li>
+        <li>artstyle_adj(p=500)->amateurish yet inviting</li>
+        <li>artstyle_adj(p=500)->Dickensian</li>
+        <li>artstyle_adj(p=500)->Jane Austen-esque</li>
+        <li>artstyle_adj(p=500)->expressionistic</li>
+        <li>artstyle_adj(p=500)->Victorian</li>
+        <li>artstyle_adj(p=500)->Orwellian</li>
+        <li>artstyle_adj(p=500)->Kafkaesque</li>
+        <li>artstyle_adj(p=500)->Gatsbyian</li>
+        <li>artstyle_adj(p=500)->violent</li>
+        <li>artstyle_adj(p=500)->abstract</li>
+        <li>artstyle_adj(p=500)->hyper-realistic</li>
+        <li>artstyle_adj(p=500)->pulp</li>
+        <li>artstyle_adj(p=500)->minimalistic</li>
+        <li>artstyle_adj(p=500)->comic</li>
+        <li>artstyle_adj(p=500)->purist</li>
+        <li>artstyle_adj(p=500)->romantic</li>
+        <li>artstyle_adj(p=500)->erotic</li>
+        <li>artstyle_adj(p=500)->sensual</li>
+        <li>artstyle_adj(p=500)->heartfelt</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
   
 </Defs>

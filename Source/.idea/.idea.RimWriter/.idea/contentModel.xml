@@ -8,6 +8,7 @@
       <e p="Building_Typewriter.cs" t="Include" />
       <e p="CompProperties_StorageGraphic.cs" t="Include" />
       <e p="CompStorageGraphic.cs" t="Include" />
+      <e p="GuideBook.cs" t="Include" />
       <e p="ITab_Inventory.cs" t="Include" />
       <e p="Item_JournalPage.cs" t="Include" />
       <e p="JobDriver_FreeWrite.cs" t="Include" />
@@ -21,10 +22,13 @@
       </e>
       <e p="RimWriter.csproj" t="IncludeRecursive" />
       <e p="RimWriter.sln" t="IncludeFlat" />
+      <e p="RimWriterUtility.cs" t="Include" />
       <e p="RoomRoleWorker_Library.cs" t="Include" />
       <e p="ThingBook.cs" t="Include" />
       <e p="WorkGiver_ReturnBooks.cs" t="Include" />
     </e>
-    <e p="C:\Users\mattw\.Rider2017.2\system\resharper-host\local\Transient\ReSharperHost\v10\SolutionCaches\_RimWriter.-1040807417.00" t="ExcludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mattw\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_RimWriter.-1040807417.00" t="ExcludeRecursive" />
   </component>
 </project>

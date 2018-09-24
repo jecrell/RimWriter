@@ -37,7 +37,7 @@
       <HintPath>..\..\Call-of-Cthulhu---Cults\Assemblies\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\RimWorldWin_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -57,10 +57,12 @@
     <Compile Include="Building_Typewriter.cs" />
     <Compile Include="CompStorageGraphic.cs" />
     <Compile Include="CompProperties_StorageGraphic.cs" />
+    <Compile Include="GuideBook.cs" />
     <Compile Include="ITab_Inventory.cs" />
     <Compile Include="JobDriver_ReadABook.cs" />
     <Compile Include="JobDriver_ReturnBook.cs" />
     <Compile Include="JoyGiver_ReadABook.cs" />
+    <Compile Include="RimWriterUtility.cs" />
     <Compile Include="RoomRoleWorker_Library.cs" />
     <Compile Include="ThingBook.cs" />
     <Compile Include="Item_JournalPage.cs" />

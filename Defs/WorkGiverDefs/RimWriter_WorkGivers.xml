@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<WorkGiverDef>
+  <WorkGiverDef>
 	<defName>RimWriter_ReturnBooks</defName>
 	<label>return books</label>
 	<giverClass>RimWriter.WorkGiver_ReturnBooks</giverClass>
@@ -10,10 +10,9 @@
 	<gerund>returning</gerund>
 	<priorityInType>70</priorityInType>
 	<requiredCapacities>
-		<li>Manipulation</li>
+	  <li>Manipulation</li>
 	</requiredCapacities>
-</WorkGiverDef>
-
+  </WorkGiverDef>
 
   <WorkGiverDef>
     <defName>DoBillsWrite</defName>
@@ -23,6 +22,7 @@
     <priorityInType>100</priorityInType>
     <fixedBillGiverDefs>
       <li>RimWriter_TableTypewriter</li>
+      <li>RimWriter_TableWriting</li>
     </fixedBillGiverDefs>
     <verb>write</verb>
     <gerund>writing at</gerund>

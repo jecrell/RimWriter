@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="UnfinishedWriting">
-    <defName>UnfinishedWriting</defName>
-    <thingClass>UnfinishedThing</thingClass>	
+  <ThingDef Name="UnfinishedWriting" Abstract="True">
+    <thingClass>UnfinishedThing</thingClass>
     <category>Item</category>	
-    <label>unfinished writing</label>
-    <graphicData>
-      <texPath>Item/Unfinished/Jecrell_Page</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <useHitPoints>true</useHitPoints>
     <isUnfinishedThing>true</isUnfinishedThing>
@@ -29,7 +23,17 @@
     <pathCost>15</pathCost>
     <thingCategories>
       <li>Unfinished</li>
-    </thingCategories>	
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef ParentName="UnfinishedWriting">
+    <defName>UnfinishedWriting</defName>	
+    <label>unfinished writing</label>
+    <graphicData>
+      <texPath>Item/Unfinished/Jecrell_Page</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	
   </ThingDef>
 
   <ThingDef ParentName="UnfinishedWriting">
@@ -39,7 +43,7 @@
 	  <Mass>5</Mass>
     </statBases>
     <graphicData>
-      <texPath>Item/Unfinished/Jecrell_Tablet_Unfinished</texPath>
+      <texPath>Item/Unfinished/Jecrell_Tablet</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>
@@ -48,7 +52,7 @@
     <defName>UnfinishedWritingScroll</defName>
     <label>unfinished writing (scroll)</label>
     <graphicData>
-      <texPath>Item/Unfinished/Jecrell_Scroll_Unfinished</texPath>
+      <texPath>Item/Unfinished/Jecrell_Scroll</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
   </ThingDef>

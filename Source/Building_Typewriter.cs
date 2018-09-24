@@ -39,24 +39,7 @@ namespace RimWriter
         
         // Destroyed flag. Most of the time not really needed, but sometimes...
         private bool destroyedFlag = false;
-
-        /// <summary>
-        /// Do something after the object is spawned
-        /// </summary>
-        public override void SpawnSetup(Map map, bool bla)
-        {
-            // Do the work of the base class (Building)
-            base.SpawnSetup(map, bla);
-        }
-
-        /// <summary>
-        /// To save and load actual values (savegame-data)
-        /// </summary>
-        public override void ExposeData()
-        {
-            base.ExposeData();
-        }
-
+        private float sanityRestoreRate = 0.000025f;
 
         // ===================== Destroy =====================
 
@@ -155,6 +138,35 @@ namespace RimWriter
                 };
             }
             yield break;
+        }
+
+        public override void UsedThisTick()
+        {
+            base.UsedThisTick();
+            if (Spawned && InteractionCell.IsValid && InteractionCell.GetFirstPawn(this.MapHeld) is Pawn pawn)
+            {
+                if (RimWriterUtility.IsCosmicHorrorsLoaded() || RimWriterUtility.IsCultsLoaded())
+                {
+                    try
+                    {
+                        if (RimWriterUtility.HasSanityLoss(pawn))
+                        {
+                            RimWriterUtility.ReduceSanityLoss(pawn, sanityRestoreRate);
+                            if (Find.TickManager.TicksGame % 1500 == 0)
+                            {
+                                Messages.Message(
+                                    pawn.ToString() + " has restored some sanity using the " +
+                                    this.def.label + ".", new TargetInfo(pawn.Position, pawn.Map),
+                                    MessageTypeDefOf.NeutralEvent); // .Standard);
+                            }
+                        }
+                    }
+                    catch
+                    {
+                        //Log.Message("Error loading Sanity Hediff.");
+                    }
+                }
+            }
         }
 
         /// <summary>

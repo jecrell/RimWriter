@@ -31,5 +31,35 @@
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+    <defName>RimWriter_SoundManualPencil</defName>  
+	<context>MapOnly</context>
+    <sustain>True</sustain>
+	<eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <subSounds>
+      <li>
+	    <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>WritersTable/PencilWriting</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>11</min>        
+          <max>11</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.045882</max>
+        </pitchRange>
+		<distRange>
+		  <min>10</min>
+		  <max>30</max>
+		</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
   
 </Defs>

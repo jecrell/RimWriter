@@ -2,11 +2,35 @@
 <Defs>
 
     <ThingCategoryDef>
-      <defName>RimWriter_Books</defName>
-      <label>books</label>
+      <defName>RimWriter_Writings</defName>
+      <label>writings</label>
       <parent>Manufactured</parent>
       <resourceReadoutRoot>true</resourceReadoutRoot>
-      <iconPath>UI/Icons/ThingCategories/Book</iconPath>
+      <iconPath>UI/Icons/ThingCategories/jecrellBook</iconPath>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+      <defName>RimWriter_Tablets</defName>
+      <label>tablets</label>
+      <parent>RimWriter_Writings</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/jecrellTablet</iconPath>
+    </ThingCategoryDef>
+		
+    <ThingCategoryDef>
+      <defName>RimWriter_Books</defName>
+      <label>books</label>
+      <parent>RimWriter_Writings</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/jecrellBook</iconPath>
+    </ThingCategoryDef>
+	
+    <ThingCategoryDef>
+      <defName>RimWriter_Scrolls</defName>
+      <label>scrolls</label>
+      <parent>RimWriter_Writings</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>UI/Icons/ThingCategories/jecrellScroll</iconPath>
     </ThingCategoryDef>
 
 </Defs>

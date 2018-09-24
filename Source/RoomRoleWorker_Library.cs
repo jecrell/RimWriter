@@ -6,6 +6,7 @@ namespace RimWriter
 {
     public class RoomRoleWorker_Library : RoomRoleWorker
     {
+        
         public override float GetScore(Room room)
         {
             int num = 0;

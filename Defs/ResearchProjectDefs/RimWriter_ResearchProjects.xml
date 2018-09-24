@@ -4,18 +4,17 @@
 
  X  0        1         2          3         4         5
 Y
-0.0 WRIT1 -> WRIT2 ->        ->  WRIT3  ->
+0.0 WRIT1 -> WRIT2 -> WRIT3    ->  WRIT4  ->
 
 -->
 
 <!-- Neolithic Tier -->
   
-
   <ResearchProjectDef>
-    <defName>RimWriter_TechSimpleWriting</defName>
-    <label>simple writing</label>
-    <description>Allows your colony to chisel out tablets or create leather scrolls at crafting spots that retain stories of your colony.</description>
-    <baseCost>500</baseCost>
+    <defName>RimWriter_TechPrimitiveWriting</defName>
+    <label>earth writing</label>
+    <description>Allows your colony to chisel out stony shelves and create tablets at crafting spots that retain stories of your colony. Parting the red sea is not included.</description>
+    <baseCost>50</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>ClassicStart</li>
@@ -25,17 +24,14 @@ Y
 	<tab>RimWriter_ResearchTab</tab>	
   </ResearchProjectDef> 
   
-<!-- Medieval Tier -->  
-
-
   <ResearchProjectDef>
-    <defName>RimWriter_TechHandWriting</defName>
-    <label>bookbinding</label>
-    <description>Allows your colony to perform simple techniques such as handwriting pages at a crafting spot, as well as creating simple books.</description>
-    <baseCost>700</baseCost>
-    <techLevel>Medieval</techLevel>
+    <defName>RimWriter_TechSimpleWriting</defName>
+    <label>leather scribing</label>
+    <description>Allows your colony to scribe texts on leather scrolls at crafting spots that retain stories of your colony.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Neolithic</techLevel>
     <prerequisites>
-      <li>RimWriter_TechSimpleWriting</li>
+      <li>RimWriter_TechPrimitiveWriting</li>
     </prerequisites>	
     <tags>
       <li>ClassicStart</li>
@@ -45,24 +41,51 @@ Y
 	<tab>RimWriter_ResearchTab</tab>	
   </ResearchProjectDef> 
   
+  <ResearchProjectDef>
+    <defName>RimWriter_TechBookshelves</defName>
+    <label>bookshelves</label>
+    <description>Allows your colony to construct shelves for scrolls, journals, and books.</description>
+    <baseCost>50</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>RimWriter_TechPrimitiveWriting</li>
+      <li>ComplexFurniture</li>
+    </prerequisites>
+	<researchViewX>1</researchViewX>
+	<researchViewY>0.5</researchViewY>
+	<tab>RimWriter_ResearchTab</tab>	
+  </ResearchProjectDef> 
+  
+<!-- Medieval Tier -->  
+
+  <ResearchProjectDef>
+    <defName>RimWriter_TechHandWriting</defName>
+    <label>pages and bookbinding</label>
+    <description>Allows your colony to write handwritten pages and simple books at a writer's table or crafting spot.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RimWriter_TechSimpleWriting</li>
+    </prerequisites>	
+	<researchViewX>2</researchViewX>
+	<researchViewY>1.5</researchViewY>
+	<tab>RimWriter_ResearchTab</tab>	
+  </ResearchProjectDef> 
+  
   <!-- Industrial -->  
 
   <ResearchProjectDef>
     <defName>RimWriter_TechTypewriting</defName>
     <label>typewriting</label>
-    <description>Allows you to construct a writing table to provide a joyful creative outlet for your colonists.</description>
-    <baseCost>700</baseCost>
+    <description>Allows you to construct a writing table with a mechanical typewriter to provide a joyful creative outlet for your colonists.</description>
+    <baseCost>900</baseCost>
     <prerequisites>
       <li>RimWriter_TechHandWriting</li>
     </prerequisites>	
     <techLevel>Industrial</techLevel>
-    <tags>
-      <li>ClassicStart</li>
-    </tags>
 	<researchViewX>3</researchViewX>
 	<researchViewY>1.5</researchViewY>
 	<tab>RimWriter_ResearchTab</tab>	
-  </ResearchProjectDef>       
-  
+  </ResearchProjectDef>         
 	
 </Defs>
