@@ -2,504 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f9fd259-367c-4d58-9dfe-d2b9d59d7471" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GuideBook.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RimWriterUtility.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../About/About.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../About/About.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../About/Preview.png" beforeDir="false" afterPath="$PROJECT_DIR$/../About/Preview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assemblies/0Harmony.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assemblies/0Harmony.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Assemblies/RimWriter.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Assemblies/RimWriter.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/JobDefs/RimWriter_JobDefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/JobDefs/RimWriter_JobDefs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/Joy/RimWriter_JoyGivers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/Joy/RimWriter_JoyGivers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/ResearchProjectDefs/RimWriter_ResearchProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/ResearchProjectDefs/RimWriter_ResearchProjects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/RulePackDefs/RimWriter_Rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/RulePackDefs/RimWriter_Rules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/SoundDefs/RimWriter_Sounds.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/SoundDefs/RimWriter_Sounds.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/ThingCategories/RimWriter_ThingCategories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/ThingCategories/RimWriter_ThingCategories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/ThingDefs_Buildings/RimWriter_Buildings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/ThingDefs_Buildings/RimWriter_Buildings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Defs/ThingDefs_Item/RimWriter_Books.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/ThingDefs_Item/RimWriter_Books.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/ThingDefs_Item/RimWriter_UnfinishedThings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/ThingDefs_Item/RimWriter_UnfinishedThings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defs/WorkGiverDefs/RimWriter_WorkGivers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defs/WorkGiverDefs/RimWriter_WorkGivers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Languages/English/Keyed/EstateKeys.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RimworldModReleaseTool.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/AintMisbehavin.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/Charleston.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/Gramophone_Windup.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/InTheMood.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/ItDontMeanAThing.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Gramophone/KingPorterStomp.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Piano/FurElise.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/FlipSwitch.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamBoilerAmbient.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamDriverPlantLoop.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamElectricPlantLoop.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamHiss.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamHissLoop.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamPressureDown.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamPressureUp.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/SteamPressureWhistle.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Power/WaterPumpAmbient.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Radio/RadioSeeking.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Refrigerator/RefrigeratorAmbience.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Things/Tesla.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Things/TeslaAmbient.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sounds/Things/TeslaImpact.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RimWriter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Building_Typewriter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Building_Typewriter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobDriver_FreeWrite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JobDriver_FreeWrite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Languages/English/Keyed/RimWriter_Keys.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Languages/English/Keyed/RimWriter_Keys.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobDriver_ReadABook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JobDriver_ReadABook.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RimWriter.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RimWriter.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RoomRoleWorker_Library.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RoomRoleWorker_Library.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ThingBook.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ThingBook.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WorkGiver_ReturnBooks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WorkGiver_ReturnBooks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Manufactured/CopperIngot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Scroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Scroll.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Tablet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Tablet_Unfinished.png" beforeDir="false" afterPath="$PROJECT_DIR$/../Textures/Item/Resource/Journal/Jecrell_Tablet_Unfinished.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Unfinished/Jecrell_Scroll_Unfinished.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Item/Unfinished/Jecrell_Tablet_Unfinished.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Terrain/Surfaces/mrXuiryusFloor_Metalgrate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Terrain/Surfaces/mrXuiryusFloor_Metalgrate_Big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Terrain/Surfaces/mrXuiryusFloor_Metalplate.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Accessories/Pocketwatch/Pocketwatch_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Apron/IndApron_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/GreatCoat/IndGreatcoat_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/BPants_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/Bpants_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Jodhpurs/Pants.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/LongCoat/IndLongcoat_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overalls/IndOveralls_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Overcoat/Overcoat_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Pants/Pants_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/ShirtTie/IndShirtTie_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/IndSteamhull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Steamhull/Steamhull_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Suspenders/IndSuspenders_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/IndTrenchCoat_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/TrenchCoat/TrenchCoat.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/UniformCoat/IndUniform_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/WW1NurseUniform/WW1Nurse_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Fat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Fat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Fat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Female_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Female_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Female_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Hulk_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Hulk_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Hulk_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Male_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Male_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Male_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Thin_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Thin_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Bodywear/Waistcoat/IndWaistcoat_Thin_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/Aviator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/Aviator_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/Aviator_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/Aviator_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater2_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater2_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater2_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBoater_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBowler.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBowler_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBowler_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndBowler_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFeatherTophat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFeatherTophat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFeatherTophat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFeatherTophat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFedora.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFedora_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFedora_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndFedora_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles2_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles2_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles2_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndGoggles_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndKepi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndKepi_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndKepi_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndKepi_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndMonocle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndMonocle_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndMonocle_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndMonocle_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndNewsboy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndNewsboy_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndNewsboy_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndNewsboy_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndPith.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndPith_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndPith_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndPith_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndRaznaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndRaznaut_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndRaznaut_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndRaznaut_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSpectacles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSpectacles_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSpectacles_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSpectacles_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteamhull.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteamhull_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteamhull_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteamhull_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteampunkTophat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteampunkTophat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteampunkTophat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndSteampunkTophat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndTophat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndTophat_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndTophat_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/IndTophat_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/PilotCap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/PilotCap_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/PilotCap_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Apparel/Headwear/PilotCap_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Door/jecDoorIndustrialFancy_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Door/jecDoorIndustrialFancy_Mover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Door/jecDoorIndustrialSimple_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Door/jecDoorIndustrialSimple_Mover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_eastm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_northm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecArcLamp_southm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_eastm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_northm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonLamp_southm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_eastm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_northm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/jecEdisonTube_southm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Furniture/mrXuiryusRoundTable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/invernusTelescope.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/invernusTubeTelevision_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/invernusTubeTelevision_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/invernusTubeTelevision_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/mrXuiryusSteampipepiano_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Joy/mrXuiryusSteampipepiano_northm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusSteampipe_Atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusSteampipe_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusWall_Atlas_Plated.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusWall_Atlas_Polished.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusWaterpipe_Atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Linked/mrXuiryusWaterpipe_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_eastm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_northm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_south.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Misc/Telegraph_southm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Natural/jecVeinCoal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Natural/jecVeinCopper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/Old/SteamGenerator(Alt).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/Old/SteamGenerator(Old).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/Old/SteamGenerator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/Old/SteamGenerator2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/SteamDrivePlant.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/SteamDrivePlantCopper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/SteamDrivePlantCopper_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecSteamPowerPlantCopper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecSteamPowerPlantCopper_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecWaterPump.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecWaterPump_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecWaterTower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/jecWaterTower_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenserAdvanced_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenserAdvanced_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenserAdvanced_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenser_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenser_east.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamCondenser_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamGenerator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamGenerator_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamStack.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamStackAdvanced.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamStackAdvanced_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamStack_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamValve.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Power/mrXuiryusSteamValve_Off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/jecPowerSwitchBig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/jecPowerSwitchSmall.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillBrassAdvanced_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillBrassAdvanced_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillBrass_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillBrass_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillCoalAdvanced_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillCoalAdvanced_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillCoal_MenuIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Production/mrXuiryusDrillCoal_north.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Security/invernusBarbedWire_Atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Security/invernusBarbedWire_Blueprint_Atlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Security/invernusBarbedWire_Icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Security/mrXuiryusSteamVent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Tesla_Base.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Tesla_Top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Building/Wall_Atlas_Plated.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Ammo/FCannonShell - Copy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Ammo/FCannonShell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Ammo/LMortarShell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Equipment/WeaponRanged/TeslaRifle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Coal/Coal_Chunk_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Coal/Coal_Chunk_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Coal/Coal_Chunk_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Copper/Copper_Chunk_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Copper/Copper_Chunk_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Item/Resource/Copper/Copper_Chunk_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Projectile/ElectricityArc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Projectile/Shell.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Candle/CandleA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Candle/CandleB.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Candle/CandleC.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Power/Estate_SteamOverlayBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Power/Estate_SteamTransmitterAtlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Power/Estate_WaterOverlayBase.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Power/Estate_WaterTransmitterAtlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/Things/Special/Power/TransmitterAtlas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_DesireSteam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_DesireWater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_DischargeFuel.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_SteamWhistle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_VentSteam.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/Estate_VentWater.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/PressureCaution.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/PressureDanger.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/PressureMaximum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/PressureNominal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Commands/PressureOff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/Commands/Autoplay.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/GasStreetLamp/GasStreetLampAlpha_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/GasStreetLamp/GasStreetLampAlpha_ico_m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/GasStreetLamp/GasStreetLampBeta_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/GasStreetLamp/GasStreetLampBeta_ico_m.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/Radio/Radio_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/Refrigerator/Refrigerator_ico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Textures/UI/Icons/ThingCategories/Book.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -530,13 +38,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="3226" />
+          <entry key="cs" value="3838" />
           <entry key="csproj" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="3226" />
+          <entry key="C#" value="3838" />
           <entry key="Csproj" value="2" />
         </counts>
       </usages-collector>
@@ -549,36 +57,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JobDriver_ReadABook.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
+            <state relative-caret-position="476">
+              <caret line="84" column="73" selection-start-line="84" selection-start-column="73" selection-end-line="84" selection-end-column="73" />
               <folding>
-                <marker date="1537779793530" expanded="false" signature="6:111" ph="..." />
-                <marker date="1537779793530" expanded="true" signature="132:6950" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="183:6946" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="253:369" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="478:994" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="537:646" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="663:773" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="823:882" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="899:959" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="1035:1568" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="1394:1457" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="1629:3218" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="1883:2369" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="2059:2337" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="2181:2315" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="3385:6859" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="3856:3938" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="3983:4065" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4131:4213" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4265:4347" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4386:4468" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4511:4593" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4682:5090" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="4938:5068" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="5603:6387" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="5875:6369" ph="{...}" />
-                <marker date="1537779793530" expanded="true" signature="6422:6572" ph="{...}" />
+                <marker date="1537859445958" expanded="false" signature="6:111" ph="..." />
+                <marker date="1537859445958" expanded="true" signature="132:7103" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="183:7099" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="253:369" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="478:994" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="537:646" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="663:773" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="823:882" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="899:959" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="1035:1568" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="1394:1457" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="1629:3371" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="1883:2522" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="2059:2337" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="2181:2315" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="2379:2490" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="3538:7012" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4009:4091" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4136:4218" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4284:4366" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4418:4500" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4539:4621" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4664:4746" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="4835:5243" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="5091:5221" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="5756:6540" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="6028:6522" ph="{...}" />
+                <marker date="1537859445958" expanded="true" signature="6575:6725" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -587,21 +96,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThingBook.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="629">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
-                <marker date="1537789790214" expanded="false" signature="6:81" ph="..." />
-                <marker date="1537789790214" expanded="true" signature="102:1391" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="148:1389" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="203:430" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="229:420" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="280:374" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="468:761" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="494:751" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="545:702" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="817:1383" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="944:1373" ph="{...}" />
-                <marker date="1537789790214" expanded="true" signature="1023:1355" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="6:97" ph="..." />
+                <marker date="1537860253708" expanded="true" signature="118:2529" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="164:2527" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="220:448" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="246:438" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="297:391" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="486:780" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="512:770" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="563:720" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="868:1908" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="1145:1330" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="1347:1898" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="1964:2521" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="2091:2511" ph="{...}" />
+                <marker date="1537860253708" expanded="true" signature="2170:2496" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -626,8 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RimWriterUtility.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+            <state relative-caret-position="242">
+              <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
               <folding>
                 <marker date="1537802857163" expanded="true" signature="6:100" ph="..." />
                 <marker date="1537802857163" expanded="true" signature="121:7709" ph="{...}" />
@@ -695,37 +207,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WorkGiver_ReturnBooks.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+            <state relative-caret-position="211">
+              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
-                <marker date="1537803473009" expanded="false" signature="6:111" ph="..." />
-                <marker date="1537803473009" expanded="true" signature="132:3115" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="193:3113" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="280:381" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="430:543" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="456:533" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="616:714" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="771:825" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="874:1015" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1096:1853" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1207:1264" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1338:1395" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1540:1664" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1787:1842" ph="{...}" />
-                <marker date="1537803473009" expanded="true" signature="1931:3107" ph="{...}" />
+                <marker date="1537860799665" expanded="false" signature="6:111" ph="..." />
+                <marker date="1537860799665" expanded="true" signature="132:3125" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="193:3123" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="280:381" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="430:543" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="456:533" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="616:714" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="771:825" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="874:1015" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1096:1863" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1207:1264" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1338:1395" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1540:1674" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1797:1852" ph="{...}" />
+                <marker date="1537860799665" expanded="true" signature="1941:3117" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompStorageGraphic.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+            <state relative-caret-position="153">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <marker date="1537032600113" expanded="false" signature="6:114" ph="..." />
                 <marker date="1537032600113" expanded="true" signature="135:1456" ph="{...}" />
@@ -830,6 +342,8 @@
       <find>ArkhamEstate</find>
       <find>Drop</find>
       <find>TryGainRecRoomThought</find>
+      <find>Grave</find>
+      <find>NoEmptyGraveLower</find>
     </findStrings>
     <replaceStrings>
       <replace>RimWriter_</replace>
@@ -875,11 +389,11 @@
         <option value="$PROJECT_DIR$/RimWriter.csproj" />
         <option value="$PROJECT_DIR$/RoomRoleWorker_Library.cs" />
         <option value="$PROJECT_DIR$/JobDriver_FreeWrite.cs" />
-        <option value="$PROJECT_DIR$/JobDriver_ReadABook.cs" />
         <option value="$PROJECT_DIR$/GuideBook.cs" />
-        <option value="$PROJECT_DIR$/ThingBook.cs" />
         <option value="$PROJECT_DIR$/Building_Typewriter.cs" />
         <option value="$PROJECT_DIR$/RimWriterUtility.cs" />
+        <option value="$PROJECT_DIR$/JobDriver_ReadABook.cs" />
+        <option value="$PROJECT_DIR$/ThingBook.cs" />
         <option value="$PROJECT_DIR$/WorkGiver_ReturnBooks.cs" />
       </list>
     </option>
@@ -890,11 +404,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
-    <option name="y" value="57" />
-    <option name="width" value="1144" />
-    <option name="height" value="749" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="446" />
+    <option name="y" value="108" />
+    <option name="width" value="1401" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -914,6 +428,19 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
               <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RimWriter" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="References" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Assemblies" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -985,12 +512,12 @@
       <workItem from="1535790223743" duration="974000" />
       <workItem from="1535885698763" duration="1166000" />
       <workItem from="1537113041145" duration="211000" />
-      <workItem from="1537631565594" duration="24616000" />
+      <workItem from="1537631565594" duration="29702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32622000" />
+    <option name="totallyTimeSpent" value="37708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1002,7 +529,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14818764" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -1271,27 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThingBook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-          <folding>
-            <marker date="1537789790214" expanded="false" signature="6:81" ph="..." />
-            <marker date="1537789790214" expanded="true" signature="102:1391" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="148:1389" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="203:430" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="229:420" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="280:374" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="468:761" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="494:751" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="545:702" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="817:1383" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="944:1373" ph="{...}" />
-            <marker date="1537789790214" expanded="true" signature="1023:1355" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Building_Typewriter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1351,42 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JobDriver_ReadABook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="42" column="54" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
-          <folding>
-            <marker date="1537779793530" expanded="false" signature="6:111" ph="..." />
-            <marker date="1537779793530" expanded="true" signature="132:6950" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="183:6946" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="253:369" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="478:994" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="537:646" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="663:773" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="823:882" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="899:959" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="1035:1568" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="1394:1457" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="1629:3218" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="1883:2369" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="2059:2337" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="2181:2315" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="3385:6859" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="3856:3938" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="3983:4065" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4131:4213" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4265:4347" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4386:4468" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4511:4593" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4682:5090" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="4938:5068" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="5603:6387" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="5875:6369" ph="{...}" />
-            <marker date="1537779793530" expanded="true" signature="6422:6572" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JoyGiver_ReadABook.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1401,10 +871,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CompStorageGraphic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1537032600113" expanded="false" signature="6:114" ph="..." />
+            <marker date="1537032600113" expanded="true" signature="135:1456" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="185:1454" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="374:428" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="470:1448" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="496:1438" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="553:1386" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="721:1368" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="805:951" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="1022:1170" ph="{...}" />
+            <marker date="1537032600113" expanded="true" signature="1199:1346" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JobDriver_ReadABook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="84" column="73" selection-start-line="84" selection-start-column="73" selection-end-line="84" selection-end-column="73" />
+          <folding>
+            <marker date="1537859445958" expanded="false" signature="6:111" ph="..." />
+            <marker date="1537859445958" expanded="true" signature="132:7103" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="183:7099" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="253:369" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="478:994" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="537:646" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="663:773" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="823:882" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="899:959" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="1035:1568" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="1394:1457" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="1629:3371" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="1883:2522" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="2059:2337" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="2181:2315" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="2379:2490" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="3538:7012" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4009:4091" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4136:4218" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4284:4366" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4418:4500" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4539:4621" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4664:4746" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="4835:5243" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="5091:5221" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="5756:6540" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="6028:6522" ph="{...}" />
+            <marker date="1537859445958" expanded="true" signature="6575:6725" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RimWriterUtility.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="28" column="74" selection-start-line="28" selection-start-column="74" selection-end-line="28" selection-end-column="74" />
+        <state relative-caret-position="242">
+          <caret line="30" column="61" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
           <folding>
             <marker date="1537802857163" expanded="true" signature="6:100" ph="..." />
             <marker date="1537802857163" expanded="true" signature="121:7709" ph="{...}" />
@@ -1442,46 +969,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WorkGiver_ReturnBooks.cs">
+    <entry file="file://$PROJECT_DIR$/ThingBook.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="37" column="57" lean-forward="true" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        <state relative-caret-position="629">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
-            <marker date="1537803473009" expanded="false" signature="6:111" ph="..." />
-            <marker date="1537803473009" expanded="true" signature="132:3115" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="193:3113" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="280:381" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="430:543" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="456:533" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="616:714" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="771:825" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="874:1015" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1096:1853" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1207:1264" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1338:1395" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1540:1664" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1787:1842" ph="{...}" />
-            <marker date="1537803473009" expanded="true" signature="1931:3107" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="6:97" ph="..." />
+            <marker date="1537860253708" expanded="true" signature="118:2529" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="164:2527" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="220:448" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="246:438" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="297:391" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="486:780" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="512:770" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="563:720" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="868:1908" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="1145:1330" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="1347:1898" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="1964:2521" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="2091:2511" ph="{...}" />
+            <marker date="1537860253708" expanded="true" signature="2170:2496" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CompStorageGraphic.cs">
+    <entry file="file://$PROJECT_DIR$/WorkGiver_ReturnBooks.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        <state relative-caret-position="211">
+          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
           <folding>
-            <marker date="1537032600113" expanded="false" signature="6:114" ph="..." />
-            <marker date="1537032600113" expanded="true" signature="135:1456" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="185:1454" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="374:428" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="470:1448" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="496:1438" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="553:1386" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="721:1368" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="805:951" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="1022:1170" ph="{...}" />
-            <marker date="1537032600113" expanded="true" signature="1199:1346" ph="{...}" />
+            <marker date="1537860799665" expanded="false" signature="6:111" ph="..." />
+            <marker date="1537860799665" expanded="true" signature="132:3125" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="193:3123" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="280:381" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="430:543" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="456:533" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="616:714" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="771:825" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="874:1015" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1096:1863" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1207:1264" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1338:1395" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1540:1674" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1797:1852" ph="{...}" />
+            <marker date="1537860799665" expanded="true" signature="1941:3117" ph="{...}" />
           </folding>
         </state>
       </provider>

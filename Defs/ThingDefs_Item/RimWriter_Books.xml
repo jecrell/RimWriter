@@ -30,7 +30,7 @@
     <techLevel>Neolithic</techLevel>
     <filthLeaving>Filth_RubbleRock</filthLeaving>
     <recipeMaker>
-      <workSpeedStat>ResearchSpeed</workSpeedStat>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
       <unfinishedThingDef>UnfinishedWritingTablet</unfinishedThingDef>
       <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
@@ -153,6 +153,10 @@
         <descriptionMaker>RimWriterArtDescription_Guide</descriptionMaker>
       </li>
     </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Books</li>
+    </tradeTags>
   </ThingDef>
   
   <ThingDef ParentName="Jecrell_BookByHand" Name="Jecrell_HandwrittenBook">

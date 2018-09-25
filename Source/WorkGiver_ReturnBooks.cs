@@ -53,7 +53,7 @@ namespace RimWriter
             Building_InternalStorage Building_InternalStorage = this.FindBestStorage(pawn, t);
             if (Building_InternalStorage == null)
             {
-                JobFailReason.Is("NoEmptyGraveLower".Translate());
+                JobFailReason.Is("RimWriter_NoInternalStorage".Translate());
                 return null;
             }
             return new Job(DefDatabase<JobDef>.GetNamed("RimWriter_ReturnBook"), t, Building_InternalStorage)

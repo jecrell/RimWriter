@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+ <!-- 9-25-18 -->
+   <RimWriter_Read>Read {0}</RimWriter_Read>
+   <RimWriter_NoInternalStorage>Storage unavailable</RimWriter_NoInternalStorage>
+   <RimWriter_CannotRead>Cannot read {0}</RimWriter_CannotRead>
+
  <!-- 9-24-18 -->
   <RimWriter_GuideTitleWithAuthor>{0}'s {1} Skillbook</RimWriter_GuideTitleWithAuthor>
   <RimWriter_GuideTitle>{0} Skillbook</RimWriter_GuideTitle>

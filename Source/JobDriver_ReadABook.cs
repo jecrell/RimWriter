@@ -67,6 +67,9 @@ namespace RimWriter
                         {
                             this.job.SetTarget(TargetIndex.B, book as ThingBook);
                         }
+                    }else if (TargetA.Thing is ThingBook tBook)
+                    {
+                        this.job.SetTarget(TargetIndex.B, tBook );
                     }
                 }
             };
