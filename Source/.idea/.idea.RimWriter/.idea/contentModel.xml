@@ -15,8 +15,10 @@
       <e p="JobDriver_ReadABook.cs" t="Include" />
       <e p="JobDriver_ReturnBook.cs" t="Include" />
       <e p="JoyGiver_ReadABook.cs" t="Include" />
+      <e p="ModMain.cs" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Page.cs" t="Include" />
       <e p="Properties" t="Include">
         <e p="AssemblyInfo.cs" t="Include" />
       </e>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="BuildingBase" Name="Jec_Scrollcase">
+    <defName>Jecrell_Scrollcase</defName>
+    <label>Scrollcase (tall)</label>
+	<thingClass>RimWriter.Building_Bookcase</thingClass>
+    <description>Used to hold and catalog scrolls.</description>
+	<uiIconScale>0.45</uiIconScale>
+    <researchPrerequisites>
+      <li>RimWriter_TechBookshelves</li>
+    </researchPrerequisites>
+    <graphicData>
+      <texPath>Building/Production/LibraryScrollcase/Jecrell_Scrollcase</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>3</drawSize>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <rotatable>true</rotatable>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>5</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>110</costStuffCount>
+    <pathCost>70</pathCost>
+    <passability>PassThroughOnly</passability>
+    <designationCategory>Joy</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+	<comps>
+	  <li Class="CompProperties_RoomIdentifier">
+		<roomStat>Impressiveness</roomStat>
+	  </li>
+	  <li Class="RimWriter.CompProperties_StorageGraphic">
+	    <graphicEmpty>
+		  <texPath>Building/Production/LibraryScrollcase/Jecrell_ScrollcaseEmpty</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicEmpty>
+	    <graphicSparse>
+		  <texPath>Building/Production/LibraryScrollcase/Jecrell_ScrollcaseSparse</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicSparse>
+	    <graphicFull>
+		  <texPath>Building/Production/LibraryScrollcase/Jecrell_Scrollcase</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicFull>
+	    <countSparseThreshhold>1</countSparseThreshhold>
+	    <countFullCapacity>30</countFullCapacity>
+	  </li>
+	</comps>
+	<building>
+      <joyKind>Jecrell_Books</joyKind>
+	  <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
+      <preventDeteriorationInside>true</preventDeteriorationInside>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>RimWriter_Scrolls</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>RimWriter_Scrolls</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+	  <li>RimWriter.ITab_Inventory</li>
+    </inspectorTabs>
+  </ThingDef>
+  
+  <ThingDef ParentName="Jec_Scrollcase">
+    <defName>Jecrell_ScrollcaseShort</defName>
+    <label>Scrollcase (short)</label>
+    <description>Used to hold and catalog scrolls.</description>
+    <costStuffCount>55</costStuffCount>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>2.5</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>
+    </statBases>
+    <graphicData>
+      <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcase</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+	  <drawSize>3</drawSize>
+    </graphicData>
+	<comps Inherit="False">
+	  <li Class="CompProperties_RoomIdentifier">
+		<roomStat>Impressiveness</roomStat>
+	  </li>
+	  <li Class="RimWriter.CompProperties_StorageGraphic">
+	    <graphicEmpty>
+		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcaseEmpty</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicEmpty>
+	    <graphicSparse>
+		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcaseSparse</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicSparse>
+	    <graphicFull>
+		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcase</texPath>
+		  <graphicClass>Graphic_Multi</graphicClass>
+		  <shaderType>CutoutComplex</shaderType>
+		  <drawSize>3</drawSize>
+	    </graphicFull>
+	    <countSparseThreshhold>1</countSparseThreshhold>
+	    <countFullCapacity>15</countFullCapacity>
+	  </li>
+	</comps>
+  </ThingDef>	
+</Defs>

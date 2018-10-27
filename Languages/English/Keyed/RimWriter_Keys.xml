@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+<!-- 9-29-18 -->
+
+  <RimWriter_ApplySettings>Apply settings</RimWriter_ApplySettings>
+  <RimWriter_ComplexRecipes>Enable simple recipes</RimWriter_ComplexRecipes>
+  <RimWriter_ComplexRecipesTip>Enabling simple recipes removes steps to creating books for shorter playthroughs.</RimWriter_ComplexRecipesTip>
+
  <!-- 9-25-18 -->
    <RimWriter_Read>Read {0}</RimWriter_Read>
    <RimWriter_NoInternalStorage>Storage unavailable</RimWriter_NoInternalStorage>

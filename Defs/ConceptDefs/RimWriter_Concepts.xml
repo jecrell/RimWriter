@@ -2,6 +2,15 @@
 <Defs>
 	
   <ConceptDef>
+    <defName>RimWriter_PaperMaking</defName>
+    <label>paper making</label>
+    <priority>50</priority>
+    <helpText>Paper and parchment can be created at the paper making table. Paper is crafted from logs, and parchment is crafted from leather. Both can be used as materials to make books.</helpText>
+    <needsOpportunity>true</needsOpportunity>
+  </ConceptDef>
+
+
+  <ConceptDef>
     <defName>RimWriter_BookBurning</defName>
     <label>book burning</label>
     <priority>50</priority>
@@ -13,5 +22,6 @@
       <li>ITab-Bills-Closed</li>
     </highlightTags>
   </ConceptDef>
+
 
 </Defs>

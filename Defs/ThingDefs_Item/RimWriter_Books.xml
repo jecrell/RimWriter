@@ -2,126 +2,18 @@
 <Defs>
 
   <ThingDef ParentName="Jecrell_Book">
-	<defName>Jecrell_Tablet</defName>
-	<label>tablet</label>
-	<description>A stone chiseled tablet telling of an event that occurred in the colony.</description>
-    <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_Tablet</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
-      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>
-    <statBases>
-	  <Mass>5</Mass>
-      <WorkToMake>4000</WorkToMake>
-      <MaxHitPoints>60</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>0</DeteriorationRate>
-      <SellPriceFactor>0.25</SellPriceFactor>
-    </statBases>
-    <thingCategories Inherit="False">
-      <li>Items</li>
-	  <li>RimWriter_Tablets</li>
-    </thingCategories>
-	<stuffCategories Inherit="False">
-      <li>Stony</li>
-    </stuffCategories>
-    <techLevel>Neolithic</techLevel>
-    <filthLeaving>Filth_RubbleRock</filthLeaving>
-    <recipeMaker>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <unfinishedThingDef>UnfinishedWritingTablet</unfinishedThingDef>
-      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>TableStonecutter</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechPrimitiveWriting</researchPrerequisite>
-    </recipeMaker>
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>RimWriterNamerTablet</nameMaker>
-        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef ParentName="Jecrell_Book">
-	<defName>Jecrell_LeatherScroll</defName>
-	<label>scroll</label>
-	<description>A leather scroll telling of an event that occurred in the colony.</description>
-    <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_Scroll</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
-      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>
-    <statBases>
-	  <Mass>0.05</Mass>
-      <WorkToMake>4000</WorkToMake>
-      <MaxHitPoints>30</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.6</SellPriceFactor>
-    </statBases>
-    <thingCategories Inherit="False">
-      <li>Items</li>
-	  <li>RimWriter_Scrolls</li>
-    </thingCategories>
-	<stuffCategories Inherit="False">
-      <li>Leathery</li>
-    </stuffCategories>
-    <techLevel>Neolithic</techLevel>
-    <filthLeaving>Filth_Trash</filthLeaving>
-    <recipeMaker>
-      <workSpeedStat>ResearchSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <unfinishedThingDef>UnfinishedWritingScroll</unfinishedThingDef>
-      <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>ButcherSpot</li>
-        <li>TableButcher</li>
-        <li>RimWriter_TableWriting</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechSimpleWriting</researchPrerequisite>
-    </recipeMaker>
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>RimWriterNamerScroll</nameMaker>
-        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
-      </li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef ParentName="Jecrell_BookByTypewriter">
-	<defName>Jecrell_Book</defName>
-	<label>typed book</label>
-	<description>A collection of pages.</description>
+    <defName>Jecrell_Book</defName>
+    <label>book</label>
+    <description>A collection of pages.</description>
     <graphicData>
       <texPath>Item/Resource/Journal/Jecrell_Book</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
+      <shaderType>CutoutComplex</shaderType>
       <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>	
-	<costList>
-	  <!--<Jecrell_Wax>2</Jecrell_Wax>-->
-      <Jecrell_PageBook>15</Jecrell_PageBook>
-    </costList>	
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -131,20 +23,21 @@
       </li>
     </comps>
   </ThingDef>
-  
-  <ThingDef ParentName="Jecrell_HandwrittenBook">
+
+
+  <ThingDef ParentName="Jecrell_Book">
     <defName>Jecrell_GuideBook</defName>
-	<label>skillbook</label>
+    <label>skillbook</label>
     <thingClass>RimWriter.GuideBook</thingClass>
-	<description>A skillbook used to help characters with their professions and skill improvement.</description>
+    <description>A skillbook used to help characters with their professions and skill improvement.</description>
     <recipeMaker Inherit="False">
-    </recipeMaker>	
+    </recipeMaker>
     <statBases>
-	  <MarketValue>4000</MarketValue>
-	  <SellPriceFactor>0.05</SellPriceFactor>
+      <MarketValue>4000</MarketValue>
+      <SellPriceFactor>0.05</SellPriceFactor>
     </statBases>
-	<comps Inherit="False">
-      <li Class="CompProperties_Forbiddable"/>	
+    <comps Inherit="False">
+      <li Class="CompProperties_Forbiddable"/>
       <li>
         <compClass>CompQuality</compClass>
       </li>
@@ -158,159 +51,24 @@
       <li>Books</li>
     </tradeTags>
   </ThingDef>
-  
-  <ThingDef ParentName="Jecrell_BookByHand" Name="Jecrell_HandwrittenBook">
-	<defName>Jecrell_BookHandwritten</defName>
-	<label>handwritten book</label>
-	<description>A collection of handwritten pages.</description>
-    <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_Book</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
-      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>	
-	<costList>
-	  <!--<Jecrell_Wax>2</Jecrell_Wax>-->
-      <Jecrell_PageHandwritten>15</Jecrell_PageHandwritten>
-    </costList>	
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>RimWriterNamerBook</nameMaker>
-        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
-      </li>
-    </comps>
-  </ThingDef>
 
-  <ThingDef ParentName="Jecrell_BookByHand">
-	<defName>Jecrell_BookJournalHandwritten</defName>
-	<label>journal</label>
-	<description>A collection of journal pages.</description>
-    <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>
-	<costList>
-	  <!--<Jecrell_Wax>2</Jecrell_Wax>-->
-      <Jecrell_PageJournalHandwritten>15</Jecrell_PageJournalHandwritten>
-    </costList>		
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>RimWriterNamerJournal</nameMaker>
-        <descriptionMaker>RimWriterArtDescription_Journal</descriptionMaker>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  <ThingDef ParentName="Jecrell_BookByTypewriter">
-	<defName>Jecrell_BookJournal</defName>
-	<label>typed journal</label>
-	<description>A typed collection of journal pages.</description>
-    <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-	  	  <shaderType>CutoutComplex</shaderType>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-	  <drawSize>0.5</drawSize>
-    </graphicData>
-	<costList>
-	  <!--<Jecrell_Wax>2</Jecrell_Wax>-->
-      <Jecrell_PageJournal>15</Jecrell_PageJournal>
-    </costList>		
-	<comps>
-      <li Class="CompProperties_Forbiddable"/>	
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>RimWriterNamerJournal</nameMaker>
-        <descriptionMaker>RimWriterArtDescription_Journal</descriptionMaker>
-      </li>
-    </comps>
-  </ThingDef>
-  
-  
-  <ThingDef ParentName="Jecrell_PageByHand">
-    <defName>Jecrell_PageHandwritten</defName>
-	<label>handwritten book page</label>
-  </ThingDef>
-  
-  <ThingDef ParentName="Jecrell_PageByHand">
-	<defName>Jecrell_PageJournalHandwritten</defName>
-	<label>journal page</label>
-	<description>Colonists can record their experiences on these pages.</description>
-  </ThingDef>
-    
-  <ThingDef ParentName="Jecrell_PageByTypewriter">
-	<defName>Jecrell_PageJournal</defName>
-	<label>typed journal page</label>
-	<description>Colonists can record their experiences on these pages.</description>
-  </ThingDef>
-  
-  <ThingDef ParentName="Jecrell_PageByTypewriter">
-	<defName>Jecrell_PageBook</defName>
-	<label>typed book page</label>
-	<description>Colonists can write stories on these pages.</description>
-  </ThingDef>  
-  
-  <ThingDef Name="Jecrell_BookByHand" ParentName="Jecrell_Book" Abstract="True">
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
-      <workSkill>Artistic</workSkill>
-      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
-      <soundWorking>RimWriter_SoundManualPencil</soundWorking>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>RimWriter_TableWriting</li>
-        <li>RimWriter_TableTypewriter</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>    
-
-  <ThingDef Name="Jecrell_BookByTypewriter" ParentName="Jecrell_Book" Abstract="True">
-    <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
-      <workSkill>Artistic</workSkill>
-      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
-      <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
-      <recipeUsers>
-        <li>RimWriter_TableTypewriter</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechTypewriting</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>
-  
   <ThingDef Name="Jecrell_Book" Abstract="True">
     <thingClass>RimWriter.ThingBook</thingClass>
     <techLevel>Neolithic</techLevel>
     <category>Item</category>
     <pathCost>10</pathCost>
     <useHitPoints>true</useHitPoints>
-	<selectable>true</selectable>	
+    <selectable>true</selectable>
     <drawGUIOverlay>true</drawGUIOverlay>
     <statBases>
-	  <Mass>1</Mass>
+      <Mass>1</Mass>
       <WorkToMake>3500</WorkToMake>
       <MaxHitPoints>20</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
-	  <SellPriceFactor>1.1</SellPriceFactor>
+      <SellPriceFactor>1.1</SellPriceFactor>
     </statBases>
-	<stuffCategories>
+    <stuffCategories>
       <li>Leathery</li>
     </stuffCategories>
     <costStuffCount>5</costStuffCount>
@@ -319,77 +77,12 @@
     <tickerType>Never</tickerType>
     <thingCategories>
       <li>Items</li>
-	  <li>RimWriter_Books</li>
+      <li>RimWriter_Books</li>
     </thingCategories>
     <inspectorTabs>
       <li>ITab_Art</li>
-    </inspectorTabs>	
+    </inspectorTabs>
     <filthLeaving>Filth_Trash</filthLeaving>
-  </ThingDef>
-  
-  <ThingDef Name="Jecrell_PageByHand" ParentName="Jecrell_Page" Abstract="True">
-    <techLevel>Medieval</techLevel>
-    <recipeMaker>
-      <workSpeedStat>ResearchSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
-      <soundWorking>RimWriter_SoundManualPencil</soundWorking>
-      <recipeUsers>
-        <li>CraftingSpot</li>
-        <li>RimWriter_TableWriting</li>
-        <li>RimWriter_TableTypewriter</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
-    </recipeMaker>
-  </ThingDef>  
-  
-  <ThingDef Name="Jecrell_PageByTypewriter" ParentName="Jecrell_Page" Abstract="True">
-    <techLevel>Industrial</techLevel>
-    <recipeMaker>
-      <workSpeedStat>ResearchSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
-      <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
-      <recipeUsers>
-        <li>RimWriter_TableTypewriter</li>
-      </recipeUsers>
-      <researchPrerequisite>RimWriter_TechTypewriting</researchPrerequisite>
-    </recipeMaker>
   </ThingDef>
 
-  <ThingDef Name="Jecrell_Page" Abstract="True">
-	<thingClass>ThingWithComps</thingClass>
-    <techLevel>Neolithic</techLevel>
-      <graphicData>
-      <texPath>Item/Resource/Journal/Jecrell_Journal</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>	
-    <category>Item</category>
-	<stackLimit>750</stackLimit>
-    <pathCost>10</pathCost>
-    <useHitPoints>true</useHitPoints>
-	<selectable>true</selectable>	
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-	  <MarketValue>0</MarketValue>
-	  <Mass>0.05</Mass>
-      <WorkToMake>700</WorkToMake>
-      <MaxHitPoints>20</MaxHitPoints>
-      <Flammability>2.0</Flammability>
-      <DeteriorationRate>0.5</DeteriorationRate>
-    </statBases>
-    <costList>
-      <WoodLog>1</WoodLog>
-    </costList>	
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <thingCategories>
-      <li>Items</li>
-    </thingCategories>
-    <filthLeaving>Filth_Trash</filthLeaving>
-  </ThingDef>
-  
-  
 </Defs>

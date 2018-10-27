@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <JoyKindDef>
-    <defName>Jecrell_Books</defName>
-    <label>reading books</label>
-  </JoyKindDef>
-  
   <ThingDef ParentName="FurnitureWithQualityBase">
     <defName>Jecrell_StoneShelf</defName>
     <label>stone shelf</label>
@@ -56,294 +51,14 @@
     </researchPrerequisites>
   </ThingDef>
 
-  
-  <ThingDef ParentName="BuildingBase" Name="Jec_Scrollcase">
-    <defName>Jecrell_Scrollcase</defName>
-    <label>Scrollcase (tall)</label>
-	<thingClass>RimWriter.Building_Bookcase</thingClass>
-    <description>Used to hold and catalog scrolls.</description>
-	<uiIconScale>0.45</uiIconScale>
-    <researchPrerequisites>
-      <li>RimWriter_TechBookshelves</li>
-    </researchPrerequisites>
-    <graphicData>
-      <texPath>Building/Production/LibraryScrollcase/Jecrell_Scrollcase</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>3</drawSize>
-    </graphicData>
-    <altitudeLayer>BuildingOnTop</altitudeLayer>
-    <rotatable>true</rotatable>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>5000</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>5</Beauty>
-      <JoyGainFactor>1</JoyGainFactor>
-    </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>110</costStuffCount>
-    <pathCost>70</pathCost>
-    <passability>PassThroughOnly</passability>
-    <designationCategory>Joy</designationCategory>
-    <designationHotKey>Misc2</designationHotKey>
-	<comps>
-	  <li Class="CompProperties_RoomIdentifier">
-		<roomStat>Impressiveness</roomStat>
-	  </li>
-	  <li Class="RimWriter.CompProperties_StorageGraphic">
-	    <graphicEmpty>
-		  <texPath>Building/Production/LibraryScrollcase/Jecrell_ScrollcaseEmpty</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicEmpty>
-	    <graphicSparse>
-		  <texPath>Building/Production/LibraryScrollcase/Jecrell_ScrollcaseSparse</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicSparse>
-	    <graphicFull>
-		  <texPath>Building/Production/LibraryScrollcase/Jecrell_Scrollcase</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicFull>
-	    <countSparseThreshhold>1</countSparseThreshhold>
-	    <countFullCapacity>30</countFullCapacity>
-	  </li>
-	</comps>
-	<building>
-      <joyKind>Jecrell_Books</joyKind>
-	  <ai_chillDestination>false</ai_chillDestination>
-      <isInert>true</isInert>
-      <preventDeteriorationInside>true</preventDeteriorationInside>
-      <fixedStorageSettings>
-        <filter>
-          <categories>
-            <li>RimWriter_Scrolls</li>
-          </categories>
-        </filter>
-      </fixedStorageSettings>
-      <defaultStorageSettings>
-        <filter>
-          <categories>
-            <li>RimWriter_Scrolls</li>
-          </categories>
-        </filter>
-      </defaultStorageSettings>
-    </building>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-	  <li>RimWriter.ITab_Inventory</li>
-    </inspectorTabs>
-  </ThingDef>
-  
-  <ThingDef ParentName="Jec_Scrollcase">
-    <defName>Jecrell_ScrollcaseShort</defName>
-    <label>Scrollcase (short)</label>
-    <description>Used to hold and catalog scrolls.</description>
-    <costStuffCount>55</costStuffCount>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>2500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>2.5</Beauty>
-      <JoyGainFactor>1</JoyGainFactor>
-    </statBases>
-    <graphicData>
-      <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcase</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>3</drawSize>
-    </graphicData>
-	<comps Inherit="False">
-	  <li Class="CompProperties_RoomIdentifier">
-		<roomStat>Impressiveness</roomStat>
-	  </li>
-	  <li Class="RimWriter.CompProperties_StorageGraphic">
-	    <graphicEmpty>
-		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcaseEmpty</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicEmpty>
-	    <graphicSparse>
-		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcaseSparse</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicSparse>
-	    <graphicFull>
-		  <texPath>Building/Production/ShortScrollcase/Jecrell_ShortScrollcase</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicFull>
-	    <countSparseThreshhold>1</countSparseThreshhold>
-	    <countFullCapacity>15</countFullCapacity>
-	  </li>
-	</comps>
-  </ThingDef>	
-    
-  <ThingDef ParentName="BuildingBase" Name="Jec_Bookcase">
-    <defName>Jecrell_Bookcase</defName>
-    <label>bookcase (tall)</label>
-	<thingClass>RimWriter.Building_Bookcase</thingClass>
-    <description>Used to hold and catalog books.</description>
-	<uiIconScale>0.45</uiIconScale>
-    <researchPrerequisites>
-      <li>RimWriter_TechBookshelves</li>
-    </researchPrerequisites>
-    <graphicData>
-      <texPath>Building/Production/LibraryBookcase/Jecrell_Bookcase</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>3</drawSize>
-    </graphicData>
-    <altitudeLayer>BuildingOnTop</altitudeLayer>
-    <rotatable>true</rotatable>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>5000</WorkToBuild>
-      <Mass>15</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>5</Beauty>
-      <JoyGainFactor>1</JoyGainFactor>
-    </statBases>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <costStuffCount>110</costStuffCount>
-    <pathCost>70</pathCost>
-    <passability>PassThroughOnly</passability>
-    <designationCategory>Joy</designationCategory>
-    <designationHotKey>Misc2</designationHotKey>
-	<comps>
-	  <li Class="CompProperties_RoomIdentifier">
-		<roomStat>Impressiveness</roomStat>
-	  </li>
-	  <li Class="RimWriter.CompProperties_StorageGraphic">
-	    <graphicEmpty>
-		  <texPath>Building/Production/LibraryBookcase/Jecrell_BookcaseEmpty</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicEmpty>
-	    <graphicSparse>
-		  <texPath>Building/Production/LibraryBookcase/Jecrell_BookcaseSparse</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicSparse>
-	    <graphicFull>
-		  <texPath>Building/Production/LibraryBookcase/Jecrell_Bookcase</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicFull>
-	    <countSparseThreshhold>1</countSparseThreshhold>
-	    <countFullCapacity>30</countFullCapacity>
-	  </li>
-	</comps>
-	<building>
-      <joyKind>Jecrell_Books</joyKind>
-	  <ai_chillDestination>false</ai_chillDestination>
-      <isInert>true</isInert>
-      <preventDeteriorationInside>true</preventDeteriorationInside>
-      <fixedStorageSettings>
-        <filter>
-          <categories>
-            <li>RimWriter_Books</li>
-          </categories>
-        </filter>
-      </fixedStorageSettings>
-      <defaultStorageSettings>
-        <filter>
-          <categories>
-            <li>RimWriter_Books</li>
-          </categories>
-        </filter>
-      </defaultStorageSettings>
-    </building>
-    <inspectorTabs>
-      <li>ITab_Storage</li>
-	  <li>RimWriter.ITab_Inventory</li>
-    </inspectorTabs>
-  </ThingDef>
-  
-  <ThingDef ParentName="Jec_Bookcase">
-    <defName>Jecrell_BookcaseShort</defName>
-    <label>bookcase (short)</label>
-    <description>Used to hold and catalog books.</description>
-    <costStuffCount>55</costStuffCount>
-    <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
-      <WorkToBuild>2500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>2.5</Beauty>
-      <JoyGainFactor>1</JoyGainFactor>
-    </statBases>
-    <graphicData>
-      <texPath>Building/Production/ShortBookcase/Jecrell_ShortBookcase</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
-	  <drawSize>3</drawSize>
-    </graphicData>
-	<comps Inherit="False">
-	  <li Class="CompProperties_RoomIdentifier">
-		<roomStat>Impressiveness</roomStat>
-	  </li>
-	  <li Class="RimWriter.CompProperties_StorageGraphic">
-	    <graphicEmpty>
-		  <texPath>Building/Production/ShortBookcase/Jecrell_ShortBookcaseEmpty</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicEmpty>
-	    <graphicSparse>
-		  <texPath>Building/Production/ShortBookcase/Jecrell_ShortBookcaseSparse</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicSparse>
-	    <graphicFull>
-		  <texPath>Building/Production/ShortBookcase/Jecrell_ShortBookcase</texPath>
-		  <graphicClass>Graphic_Multi</graphicClass>
-		  <shaderType>CutoutComplex</shaderType>
-		  <drawSize>3</drawSize>
-	    </graphicFull>
-	    <countSparseThreshhold>1</countSparseThreshhold>
-	    <countFullCapacity>15</countFullCapacity>
-	  </li>
-	</comps>
-  </ThingDef>	
-    
-  <JoyKindDef>
-    <defName>Jecrell_Writing</defName>
-    <label>writing</label>
-  </JoyKindDef>
-
-
+<!--
   <ThingDef ParentName="BenchBase">
-    <defName>RimWriter_TableTypewriter</defName>
-    <label>typewriting table</label>
-	<thingClass>RimWriter.Building_Typewriter</thingClass>	
-    <description>A writer's bench equipped with a typewriter.</description> 
+    <defName>RimWriter_TablePapermaking</defName>
+    <label>papermaking table</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A simple station that allows for the creation of paper. It features a log grinder, pulp collector, paper framer, and paper press.</description> 
 	<graphicData>
-      <texPath>Building/Production/TypewriterTable/Jecrell_TypewriterTable</texPath>
+      <texPath>Building/Production/PaperTable/jecrellTablePaper</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>		
       <drawSize>(3.5,1.5)</drawSize>
@@ -356,81 +71,15 @@
     </graphicData>
     <interactionCellIconReverse>true</interactionCellIconReverse>
     <defaultPlacingRot>South</defaultPlacingRot>	
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>	  
+    </stuffCategories>
     <costList>
-      <Steel>50</Steel>
+      <Steel>20</Steel>
     </costList>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>	  
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
-	<minifiedDef>MinifiedThing</minifiedDef>
-    <altitudeLayer>Building</altitudeLayer>
-    <socialPropernessMatters>true</socialPropernessMatters>	
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <Mass>150</Mass>	
-      <WorkToBuild>10000</WorkToBuild>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-	  <Beauty>10</Beauty>
-      <JoyGainFactor>1</JoyGainFactor>	  
-    </statBases>
-    <researchPrerequisites>
-      <li>RimWriter_TechTypewriting</li>
-    </researchPrerequisites>	
-    <size>(3,1)</size>
-    <designationCategory>Joy</designationCategory>
-    <passability>PassThroughOnly</passability>
-    <pathCost>70</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>	  
-	  <joyKind>Jecrell_Writing</joyKind>
-    </building>
-    <comps>
-      <li Class="CompProperties_Usable">
-        <useJob>RimWriter_FreeWrite</useJob>
-        <useLabel>Write</useLabel>
-      </li>
-    </comps>
-    <designationHotKey>Misc11</designationHotKey>
-	    <storedConceptLearnOpportunity>Jecrell_TypewriterTable</storedConceptLearnOpportunity>	
-  </ThingDef>
-  
-
-  <ThingDef ParentName="BenchBase">
-    <defName>RimWriter_TableWriting</defName>
-    <label>writer's table</label>
-	<thingClass>RimWriter.Building_Typewriter</thingClass>	
-    <description>A writer's bench equipped with a feathered quill, scissors, rulers, and an inkwell.</description> 
-	<graphicData>
-      <texPath>Building/Production/WritersTable/Jecrell_WritersTable</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>		
-      <drawSize>(3.5,1.5)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <interactionCellIconReverse>true</interactionCellIconReverse>
-    <defaultPlacingRot>South</defaultPlacingRot>	
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>	  
-    </stuffCategories>
-    <costStuffCount>150</costStuffCount>
+    <costStuffCount>100</costStuffCount>
 	<minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
     <socialPropernessMatters>true</socialPropernessMatters>	
@@ -470,6 +119,6 @@
     <designationHotKey>Misc11</designationHotKey>
 	    <storedConceptLearnOpportunity>Jecrell_TypewriterTable</storedConceptLearnOpportunity>	
   </ThingDef>
-  
+  -->
 
 </Defs>

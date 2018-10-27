@@ -62,6 +62,8 @@
     <Compile Include="JobDriver_ReadABook.cs" />
     <Compile Include="JobDriver_ReturnBook.cs" />
     <Compile Include="JoyGiver_ReadABook.cs" />
+    <Compile Include="ModMain.cs" />
+    <Compile Include="Page.cs" />
     <Compile Include="RimWriterUtility.cs" />
     <Compile Include="RoomRoleWorker_Library.cs" />
     <Compile Include="ThingBook.cs" />

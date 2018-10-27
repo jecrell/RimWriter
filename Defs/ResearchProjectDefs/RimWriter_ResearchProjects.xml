@@ -61,7 +61,7 @@ Y
   <ResearchProjectDef>
     <defName>RimWriter_TechHandWriting</defName>
     <label>pages and bookbinding</label>
-    <description>Allows your colony to write handwritten pages and simple books at a writer's table or crafting spot.</description>
+    <description>Allows your colony to create pages at paper tables and write handwritten pages and simple books at a writer's table or crafting spot.</description>
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>
     <prerequisites>

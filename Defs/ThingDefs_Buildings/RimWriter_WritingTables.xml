@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BenchBase">
+    <defName>RimWriter_TableTypewriter</defName>
+    <label>typewriting table</label>
+	<thingClass>RimWriter.Building_Typewriter</thingClass>	
+    <description>A writer's bench equipped with a typewriter.</description> 
+	<graphicData>
+      <texPath>Building/Production/TypewriterTable/Jecrell_TypewriterTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>		
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <interactionCellIconReverse>true</interactionCellIconReverse>
+    <defaultPlacingRot>South</defaultPlacingRot>	
+    <costList>
+      <Steel>50</Steel>
+    </costList>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>	  
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>	
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Mass>150</Mass>	
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Beauty>10</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>	  
+    </statBases>
+    <researchPrerequisites>
+      <li>RimWriter_TechTypewriting</li>
+    </researchPrerequisites>	
+    <size>(3,1)</size>
+    <designationCategory>Joy</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>	  
+	  <joyKind>Jecrell_Writing</joyKind>
+    </building>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>RimWriter_FreeWrite</useJob>
+        <useLabel>Write</useLabel>
+      </li>
+    </comps>
+    <designationHotKey>Misc11</designationHotKey>
+	    <storedConceptLearnOpportunity>Jecrell_TypewriterTable</storedConceptLearnOpportunity>	
+  </ThingDef>
+  
+
+  <ThingDef ParentName="BenchBase">
+    <defName>RimWriter_TableWriting</defName>
+    <label>writer's table</label>
+	<thingClass>RimWriter.Building_Typewriter</thingClass>	
+    <description>A writer's bench equipped with a feathered quill, scissors, rulers, and an inkwell.</description> 
+	<graphicData>
+      <texPath>Building/Production/WritersTable/Jecrell_WritersTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>		
+      <drawSize>(3.5,1.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <interactionCellIconReverse>true</interactionCellIconReverse>
+    <defaultPlacingRot>South</defaultPlacingRot>	
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>	  
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
+	<minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>	
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <Mass>100</Mass>	
+      <WorkToBuild>7000</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Beauty>4</Beauty>
+      <JoyGainFactor>1</JoyGainFactor>	  
+    </statBases>
+    <researchPrerequisites>
+      <li>RimWriter_TechHandWriting</li>
+    </researchPrerequisites>	
+    <size>(3,1)</size>
+    <designationCategory>Joy</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>	  
+	  <joyKind>Jecrell_Writing</joyKind>
+    </building>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>RimWriter_FreeWrite</useJob>
+        <useLabel>Write</useLabel>
+      </li>
+    </comps>
+    <designationHotKey>Misc11</designationHotKey>
+	    <storedConceptLearnOpportunity>Jecrell_TypewriterTable</storedConceptLearnOpportunity>	
+  </ThingDef>
+</Defs>

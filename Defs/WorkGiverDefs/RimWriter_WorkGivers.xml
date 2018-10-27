@@ -32,4 +32,22 @@
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
   
+  <WorkGiverDef>
+    <defName>DoBillsPapermaking</defName>
+    <label>make</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Art</workType>
+    <priorityInType>100</priorityInType>
+    <fixedBillGiverDefs>
+      <li>RimWriter_PapermakingBench</li>
+      <li>RimWriter_PapermakingBenchElectric</li>
+    </fixedBillGiverDefs>
+    <verb>make</verb>
+    <gerund>making at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
 </Defs>
