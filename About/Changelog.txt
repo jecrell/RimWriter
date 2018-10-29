@@ -1,3 +1,7 @@
+1.20.0.1 (10-30-2018)
+========================
+Fixes for potential XML errors from inheritence from other mods.
+
 1.20.0.0 (10-26-2018)
 ========================
 Available now for RimWorld 1.0.

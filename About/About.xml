@@ -3,7 +3,7 @@
   <name>RimWriter - Books, Scrolls, Tablets, and Libraries</name>
   <author>Jecrell</author>
   <targetVersion>1.0.2059</targetVersion>
-  <description>1.20.0.0 (10-26-2018)
+  <description>1.20.0.1 (10-30-2018)
 
 Add tablets, books, scrolls and more to your RimWorld playthroughs.
 
@@ -40,6 +40,10 @@ Maaxar, Shibby Says, TheJagermeister, Cory Bonifay, Kiya Nicoll, Matt Harris, Pa
 ========================
 Changelog
 ========================
+1.20.0.1 (10-30-2018)
+========================
+Fixes for potential XML errors from inheritence from other mods.
+
 1.20.0.0 (10-26-2018)
 ========================
 Available now for RimWorld 1.0.

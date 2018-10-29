@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <ThingDef Name="WritingBenchBase" ParentName="BenchBase" Abstract="True">
+    <thingCategories Inherit="False"><li>BuildingsProduction</li></thingCategories>
+  </ThingDef>
   
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="WritingBenchBase">
     <defName>RimWriter_TableTypewriter</defName>
     <label>typewriting table</label>
 	<thingClass>RimWriter.Building_Typewriter</thingClass>	
@@ -70,7 +74,7 @@
   </ThingDef>
   
 
-  <ThingDef ParentName="BenchBase">
+  <ThingDef ParentName="WritingBenchBase">
     <defName>RimWriter_TableWriting</defName>
     <label>writer's table</label>
 	<thingClass>RimWriter.Building_Typewriter</thingClass>	

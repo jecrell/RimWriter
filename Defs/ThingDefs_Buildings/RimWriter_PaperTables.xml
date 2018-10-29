@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="RimWriter_PaperTable" ParentName="BenchBase">
+  <ThingDef Name="PapermakingBenchBase" ParentName="BenchBase" Abstract="True">
+    <thingCategories Inherit="False"><li>BuildingsProduction</li></thingCategories>
+  </ThingDef>
+
+  <ThingDef Name="RimWriter_PaperTable" ParentName="PapermakingBenchBase">
     <defName>RimWriter_PapermakingBench</defName>
     <label>papermaking table</label>
     <thingClass>Building_WorkTable</thingClass>
