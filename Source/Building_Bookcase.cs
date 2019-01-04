@@ -54,7 +54,7 @@ namespace RimWriter
                 {
                     string text = current.Label;
                     if (current.TryGetComp<CompArt>() is CompArt compArt)
-                        text = "RimWriter_BookTitle".Translate(new object[] { compArt.Title, compArt.AuthorName });
+                        text = TranslatorFormattedStringExtensions.Translate("RimWriter_BookTitle", compArt.Title, compArt.AuthorName);
                     List<FloatMenuOption> arg_121_0 = list;
                     Func<Rect, bool> extraPartOnGUI = (Rect rect) => Widgets.InfoCardButton(rect.x + 5f, rect.y + (rect.height - 24f) / 2f, current);
                     arg_121_0.Add(new FloatMenuOption(text, delegate

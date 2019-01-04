@@ -225,13 +225,8 @@ namespace RimWriter
             }
             if (!myPawn.health.capacities.CapableOf(PawnCapacityDefOf.Manipulation))
             {
-                FloatMenuOption item4 = new FloatMenuOption("CannotUseReason".Translate(new object[]
-                {
-                    "IncapableOfCapacity".Translate(new object[]
-                    {
-                        PawnCapacityDefOf.Manipulation.label
-                    })
-                }), null, MenuOptionPriority.Default, null, null, 0f, null);
+                FloatMenuOption item4 = new FloatMenuOption(TranslatorFormattedStringExtensions.Translate("CannotUseReason",
+                    TranslatorFormattedStringExtensions.Translate("IncapableOfCapacity", PawnCapacityDefOf.Manipulation.label)), null, MenuOptionPriority.Default, null, null, 0f, null);
                 return new List<FloatMenuOption>
                 {
                     item4

@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authors.cs" />
     <Compile Include="Building_Bookcase.cs" />
     <Compile Include="Building_InternalStorage.cs" />
     <Compile Include="Building_Typewriter.cs" />

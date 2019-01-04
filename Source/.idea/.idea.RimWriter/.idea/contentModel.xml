@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\RimWriter\Assemblies" t="ExcludeRecursive" />
     <e p="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\ModsWorkspace\RimWriter\Source" t="IncludeRecursive">
+      <e p="Authors.cs" t="Include" />
       <e p="Building_Bookcase.cs" t="Include" />
       <e p="Building_InternalStorage.cs" t="Include" />
       <e p="Building_Typewriter.cs" t="Include" />

@@ -1,3 +1,7 @@
+1.20.0.2 (01-04-2019)
+========================
+Skillbooks now properly display graphics and authors
+
 1.20.0.1 (10-30-2018)
 ========================
 Fixes for potential XML errors from inheritence from other mods.

@@ -6,6 +6,13 @@
 	<label>skillbook</label>
     <thingClass>RimWriter.GuideBook</thingClass>
 	<description>A skillbook used to help characters with their professions and skill improvement.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  	  <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <drawSize>0.5</drawSize>
+    </graphicData>	
     <recipeMaker Inherit="False">
     </recipeMaker>	
     <statBases>
