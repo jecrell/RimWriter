@@ -10,9 +10,15 @@ namespace RimWriter
     public class CompStorageGraphic : ThingComp
     {
         private Graphic cachedGraphic = null;
-        public CompProperties_StorageGraphic Props => this.props as CompProperties_StorageGraphic;
+        public CompProperties_StorageGraphic Props
+        {
+            get
+            {
+                return (CompProperties_StorageGraphic)props;
+            }
+        }
 
-        public void UpdateGraphics()
+public void UpdateGraphics()
         {
             cachedGraphic = null;
         }

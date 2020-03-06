@@ -70,7 +70,7 @@
         <description>Makes a book by hand at a crafting spot by writing out flattened stationery such as paper or parchment and binding together the pieces.</description>
         <jobString>Making a book by hand.</jobString>
         <workAmount>20000</workAmount>
-        <workSpeedStat>SculptingSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Artistic</workSkill>
         <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
         <soundWorking>RimWriter_SoundManualPencil</soundWorking>

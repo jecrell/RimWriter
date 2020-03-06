@@ -29,7 +29,7 @@
     <techLevel>Neolithic</techLevel>
     <filthLeaving>Filth_RubbleRock</filthLeaving>
     <recipeMaker>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
       <unfinishedThingDef>UnfinishedWritingTablet</unfinishedThingDef>
       <soundWorking>Recipe_MakeStoneBlocks</soundWorking>

@@ -7,7 +7,7 @@
 		<description>Burn unwanted books to completely destroy them without any mess.</description>
 		<jobString>Burning books.</jobString>
 		<workAmount>60</workAmount>
-        <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<requiredGiverWorkType>Hauling</requiredGiverWorkType>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>
@@ -35,7 +35,7 @@
 		<description>Burn unwanted scrolls to completely destroy them without any mess.</description>
 		<jobString>Burning scrolls.</jobString>
 		<workAmount>60</workAmount>
-        <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<requiredGiverWorkType>Hauling</requiredGiverWorkType>
 		<effectWorking>Cremate</effectWorking>
 		<soundWorking>Recipe_Cremate</soundWorking>

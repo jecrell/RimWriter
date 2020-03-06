@@ -15,7 +15,7 @@
         <description>Makes around one hundred pages from a few logs of wood.</description>
         <jobString>Making pages.</jobString>
         <workAmount>3500</workAmount>
-        <workSpeedStat>SculptingSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Artistic</workSkill>
         <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
         <soundWorking>Recipe_Tailor</soundWorking>
@@ -58,7 +58,7 @@
         <description>Makes around one hundred parchments from leather.</description>
         <jobString>Making parchment.</jobString>
         <workAmount>3500</workAmount>
-        <workSpeedStat>SculptingSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Artistic</workSkill>
         <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
         <soundWorking>Recipe_Tailor</soundWorking>
@@ -103,7 +103,7 @@
         <description>Makes around one hundred cloth papers from various types of fabric.</description>
         <jobString>Making cloth paper.</jobString>
         <workAmount>3500</workAmount>
-        <workSpeedStat>SculptingSpeed</workSpeedStat>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
         <workSkill>Artistic</workSkill>
         <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
         <soundWorking>Recipe_Tailor</soundWorking>
