@@ -69,3 +69,6 @@ Source/AllModdingComponents/CompSlotLoadable/Properties
 Source/AllModdingComponents/CompVehicle/obj
 Source/AllModdingComponents/CompVehicle/Properties
 Source/DiscordWebhookToken.txt
+/Source/.vs/RimWriter/v16
+/Source/packages/Lib.Harmony.2.0.0.8
+/.vs

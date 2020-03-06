@@ -1,9 +1,336 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimWriter", "RimWriter.csproj", "{A36BEEB2-7379-475B-B537-827E34571962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{017C3EB9-2408-4B8B-8A49-0FB5F2A004F8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\..\Users\JP\Desktop\About.xml = ..\..\..\..\..\..\..\..\Users\JP\Desktop\About.xml
+		..\About\Changelog.txt = ..\About\Changelog.txt
+		..\About\Description.txt = ..\About\Description.txt
+		..\About\DiscordURL.txt = ..\About\DiscordURL.txt
+		..\About\LudeonURL.txt = ..\About\LudeonURL.txt
+		..\About\PatreonURL.txt = ..\About\PatreonURL.txt
+		..\About\Preview.png = ..\About\Preview.png
+		..\About\PublishedFileId.txt = ..\About\PublishedFileId.txt
+		..\About\rimWriterOne.png = ..\About\rimWriterOne.png
+		..\About\rimWriterThree.PNG = ..\About\rimWriterThree.PNG
+		..\About\Version.txt = ..\About\Version.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Defs", "Defs", "{557D0B54-F7B0-4A57-AC99-71782F6B5B1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConceptDefs", "ConceptDefs", "{8249E980-4FF0-4477-8700-F991C1735F2D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ConceptDefs\RimWriter_Concepts.xml = ..\Defs\ConceptDefs\RimWriter_Concepts.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JobDefs", "JobDefs", "{76A5B862-40A7-45B0-AB80-D18E152D5337}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\JobDefs\RimWriter_JobDefs.xml = ..\Defs\JobDefs\RimWriter_JobDefs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JoyGiverDefs", "JoyGiverDefs", "{42FD1560-848F-4DCA-9688-3142EBEE24A9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\JoyGiverDefs\RimWriter_JoyGivers.xml = ..\Defs\JoyGiverDefs\RimWriter_JoyGivers.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JoyKindDefs", "JoyKindDefs", "{F0D367DE-2CB7-425B-BAB4-24594ABB2E5B}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\JoyKindDefs\RimWriter_JoyKindDefs.xml = ..\Defs\JoyKindDefs\RimWriter_JoyKindDefs.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecipeDefs", "RecipeDefs", "{A6B6D81B-EB48-4BE5-A5D5-CC622BB2C25E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\RecipeDefs\RimWriter_BookBinding.xml = ..\Defs\RecipeDefs\RimWriter_BookBinding.xml
+		..\Defs\RecipeDefs\RimWriter_BurnBooks.xml = ..\Defs\RecipeDefs\RimWriter_BurnBooks.xml
+		..\Defs\RecipeDefs\RimWriter_MaterialCrafting.xml = ..\Defs\RecipeDefs\RimWriter_MaterialCrafting.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResearchProjectDefs", "ResearchProjectDefs", "{896E197C-65EA-4A32-AD07-869ADF6FA00F}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ResearchProjectDefs\RimWriter_ResearchProjects.xml = ..\Defs\ResearchProjectDefs\RimWriter_ResearchProjects.xml
+		..\Defs\ResearchProjectDefs\RimWriter_ResearchTab.xml = ..\Defs\ResearchProjectDefs\RimWriter_ResearchTab.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rooms", "Rooms", "{67C90F4D-4E4B-4AAB-B9BD-E88233ED09A1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\Rooms\RimWriter_Rooms.xml = ..\Defs\Rooms\RimWriter_Rooms.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RulePackDefs", "RulePackDefs", "{5CBDBDAE-E303-4F7E-8397-E2A3B66A8D35}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\RulePackDefs\RimWriter_Rules.xml = ..\Defs\RulePackDefs\RimWriter_Rules.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SoundDefs", "SoundDefs", "{B9D929BD-55E2-425E-B42B-E3CC6D82B99E}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\SoundDefs\RimWriter_Sounds.xml = ..\Defs\SoundDefs\RimWriter_Sounds.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingCategories", "ThingCategories", "{78AC3EEB-AC84-4651-A807-B268533B9200}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ThingCategories\RimWriter_ThingCategories.xml = ..\Defs\ThingCategories\RimWriter_ThingCategories.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs_Buildings", "ThingDefs_Buildings", "{FCC79EAE-3C4D-4DB9-B169-7D6D1051908C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ThingDefs_Buildings\RimWriter_Bookcases.xml = ..\Defs\ThingDefs_Buildings\RimWriter_Bookcases.xml
+		..\Defs\ThingDefs_Buildings\RimWriter_Buildings.xml = ..\Defs\ThingDefs_Buildings\RimWriter_Buildings.xml
+		..\Defs\ThingDefs_Buildings\RimWriter_PaperTables.xml = ..\Defs\ThingDefs_Buildings\RimWriter_PaperTables.xml
+		..\Defs\ThingDefs_Buildings\RimWriter_Scrollcases.xml = ..\Defs\ThingDefs_Buildings\RimWriter_Scrollcases.xml
+		..\Defs\ThingDefs_Buildings\RimWriter_WritingTables.xml = ..\Defs\ThingDefs_Buildings\RimWriter_WritingTables.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingDefs_Item", "ThingDefs_Item", "{FC4A4109-4385-45FD-B9DA-A6E2A7993C5C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ThingDefs_Item\RimWriter_Books.xml = ..\Defs\ThingDefs_Item\RimWriter_Books.xml
+		..\Defs\ThingDefs_Item\RimWriter_Journals.xml = ..\Defs\ThingDefs_Item\RimWriter_Journals.xml
+		..\Defs\ThingDefs_Item\RimWriter_Materials.xml = ..\Defs\ThingDefs_Item\RimWriter_Materials.xml
+		..\Defs\ThingDefs_Item\RimWriter_Scrolls.xml = ..\Defs\ThingDefs_Item\RimWriter_Scrolls.xml
+		..\Defs\ThingDefs_Item\RimWriter_Skillbooks.xml = ..\Defs\ThingDefs_Item\RimWriter_Skillbooks.xml
+		..\Defs\ThingDefs_Item\RimWriter_Tablets.xml = ..\Defs\ThingDefs_Item\RimWriter_Tablets.xml
+		..\Defs\ThingDefs_Item\RimWriter_UnfinishedThings.xml = ..\Defs\ThingDefs_Item\RimWriter_UnfinishedThings.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThoughDefs", "ThoughDefs", "{2A69D46E-59F9-4487-A31B-7744C615FB99}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\ThoughDefs\RimWriter_Thoughts.xml = ..\Defs\ThoughDefs\RimWriter_Thoughts.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutor", "Tutor", "{6DEA5144-285A-4E6E-B44A-A32958713E8D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\Tutor\RimWriter_Concepts.xml = ..\Defs\Tutor\RimWriter_Concepts.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkGiverDefs", "WorkGiverDefs", "{75C2A9A2-39EF-43FF-A525-08F9E63E3007}"
+	ProjectSection(SolutionItems) = preProject
+		..\Defs\WorkGiverDefs\RimWriter_WorkGivers.xml = ..\Defs\WorkGiverDefs\RimWriter_WorkGivers.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Languages", "Languages", "{FA6F2B86-35F2-45D7-9927-857B0DEC9035}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "English", "English", "{EF67730D-F628-49B6-973C-2FCA87B1E686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Keyed", "Keyed", "{AE0E6DE9-4FF6-409F-BAE3-EC1490A0BAA5}"
+	ProjectSection(SolutionItems) = preProject
+		..\Languages\English\Keyed\RimWriter_Keys.xml = ..\Languages\English\Keyed\RimWriter_Keys.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Strings", "Strings", "{28E0C7AA-1EEF-4212-B359-986508B0F26E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Words", "Words", "{7C4C1A19-F178-4268-9C31-78AAB87B21BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nouns", "Nouns", "{EB0AB083-B45D-4611-BE87-5038452826BE}"
+	ProjectSection(SolutionItems) = preProject
+		..\Languages\English\Strings\Words\Nouns\Books.txt = ..\Languages\English\Strings\Words\Nouns\Books.txt
+		..\Languages\English\Strings\Words\Nouns\Journals.txt = ..\Languages\English\Strings\Words\Nouns\Journals.txt
+		..\Languages\English\Strings\Words\Nouns\Scrolls.txt = ..\Languages\English\Strings\Words\Nouns\Scrolls.txt
+		..\Languages\English\Strings\Words\Nouns\Tablets.txt = ..\Languages\English\Strings\Words\Nouns\Tablets.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sounds", "Sounds", "{B15EF0CB-0B11-4EC9-BEA4-C6FEEA3BF240}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Typewriter", "Typewriter", "{DDC63770-9398-4E8D-8048-79885BABE1F6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sounds\Typewriter\ManualTyping.ogg = ..\Sounds\Typewriter\ManualTyping.ogg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WritersTable", "WritersTable", "{2F2E7DC9-C6EB-4082-9FF8-829124DED1A7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Sounds\WritersTable\PencilWriting.ogg = ..\Sounds\WritersTable\PencilWriting.ogg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Textures", "Textures", "{53C185B7-1E46-4E78-AA6B-189B3284DD31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building", "Building", "{F69978C9-4C56-4C13-8BD6-1780FE31FD0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Furniture", "Furniture", "{2B68E258-EDA2-42FC-A508-6003D5EC59B1}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Furniture\jecrellStoneShelf_east.png = ..\Textures\Building\Furniture\jecrellStoneShelf_east.png
+		..\Textures\Building\Furniture\jecrellStoneShelf_north.png = ..\Textures\Building\Furniture\jecrellStoneShelf_north.png
+		..\Textures\Building\Furniture\jecrellStoneShelf_south - Copy.png = ..\Textures\Building\Furniture\jecrellStoneShelf_south - Copy.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Production", "Production", "{B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryBookcase", "LibraryBookcase", "{66C6FBC8-B0DD-4E99-8E9C-52A60D062F72}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_east.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_east.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_eastm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_eastm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_north.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_north.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_northm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_northm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_south.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_south.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_southm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_Bookcase_southm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_east.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_east.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_eastm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_eastm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_north.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_north.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_northm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_northm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_south.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_south.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_southm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseEmpty_southm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_east.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_east.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_eastm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_eastm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_north.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_north.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_northm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_northm.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_south.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_south.png
+		..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_southm.png = ..\Textures\Building\Production\LibraryBookcase\Jecrell_BookcaseSparse_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LibraryScrollcase", "LibraryScrollcase", "{ACE1810A-F48D-401A-AFC6-885365D7A335}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_east.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_east.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_eastm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_eastm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_north.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_north.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_northm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_northm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_south.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_south.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_southm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_Scrollcase_southm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_east.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_east.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_eastm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_eastm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_north.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_north.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_northm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_northm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_south.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_south.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_southm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseEmpty_southm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_east.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_east.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_eastm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_eastm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_north.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_north.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_northm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_northm.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_south.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_south.png
+		..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_southm.png = ..\Textures\Building\Production\LibraryScrollcase\Jecrell_ScrollcaseSparse_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaperTable", "PaperTable", "{24F545CE-3E78-4A62-92FB-B6A41870D950}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\PaperTable\jecrellTablePaper_north.png = ..\Textures\Building\Production\PaperTable\jecrellTablePaper_north.png
+		..\Textures\Building\Production\PaperTable\jecrellTablePaper_northm.png = ..\Textures\Building\Production\PaperTable\jecrellTablePaper_northm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaperTableElectric", "PaperTableElectric", "{6FFCBA99-A6CE-4656-9494-044087BC2027}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_north.png = ..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_north.png
+		..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_northm.png = ..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_northm.png
+		..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_south.png = ..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_south.png
+		..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_southm.png = ..\Textures\Building\Production\PaperTableElectric\jecrellTablePaperElectric_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShortBookcase", "ShortBookcase", "{C5240EA7-78D4-49D3-BC44-CD5AEE071350}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_east.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_east.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_eastm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_eastm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_north.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_north.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_northm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_northm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_south.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_south.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_southm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcase_southm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_east.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_east.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_eastm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_eastm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_north.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_north.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_northm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_northm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_south.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_south.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_southm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseEmpty_southm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_east.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_east.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_eastm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_eastm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_north.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_north.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_northm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_northm.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_south.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_south.png
+		..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_southm.png = ..\Textures\Building\Production\ShortBookcase\Jecrell_ShortBookcaseSparse_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShortScrollcase", "ShortScrollcase", "{ED7B310B-A37A-404F-9F3C-32D5E3B44C05}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_east.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_east.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_eastm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_eastm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_north.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_north.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_northm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_northm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_south.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_south.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_southm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcase_southm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_east.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_east.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_eastm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_eastm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_north.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_north.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_northm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_northm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_south.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_south.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_southm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseEmpty_southm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_east.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_east.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_eastm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_eastm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_north.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_north.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_northm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_northm.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_south.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_south.png
+		..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_southm.png = ..\Textures\Building\Production\ShortScrollcase\Jecrell_ShortScrollcaseSparse_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TypewriterTable", "TypewriterTable", "{7428B8CC-4840-4A4D-9757-B083A0034FE4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_east.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_east.png
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_eastm.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_eastm.png
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_north.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_north.png
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_northm.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_northm.png
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_south.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_south.png
+		..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_southm.png = ..\Textures\Building\Production\TypewriterTable\Jecrell_TypewriterTable_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WritersTable", "WritersTable", "{107DE355-F3DA-41FF-9962-B394F125321D}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_east.png = ..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_east.png
+		..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_eastm.png = ..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_eastm.png
+		..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_south.png = ..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_south.png
+		..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_southm.png = ..\Textures\Building\Production\WritersTable\Jecrell_WritersTable_southm.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Item", "Item", "{5039A9D1-8BBC-426D-9305-4CCD469472A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource", "Resource", "{05229033-52A2-4D4B-85C9-80106729F1BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Journal", "Journal", "{44D8FEBA-0EB2-4C0D-A05D-5317E4B56CF6}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Item\Resource\Journal\Jecrell_Book - Copy.png = ..\Textures\Item\Resource\Journal\Jecrell_Book - Copy.png
+		..\Textures\Item\Resource\Journal\Jecrell_Book.png = ..\Textures\Item\Resource\Journal\Jecrell_Book.png
+		..\Textures\Item\Resource\Journal\Jecrell_Book_m - Copy.png = ..\Textures\Item\Resource\Journal\Jecrell_Book_m - Copy.png
+		..\Textures\Item\Resource\Journal\Jecrell_Book_m.png = ..\Textures\Item\Resource\Journal\Jecrell_Book_m.png
+		..\Textures\Item\Resource\Journal\Jecrell_Journal - Copy.png = ..\Textures\Item\Resource\Journal\Jecrell_Journal - Copy.png
+		..\Textures\Item\Resource\Journal\Jecrell_Journal.png = ..\Textures\Item\Resource\Journal\Jecrell_Journal.png
+		..\Textures\Item\Resource\Journal\Jecrell_JournalBook - Copy.png = ..\Textures\Item\Resource\Journal\Jecrell_JournalBook - Copy.png
+		..\Textures\Item\Resource\Journal\Jecrell_JournalBook.png = ..\Textures\Item\Resource\Journal\Jecrell_JournalBook.png
+		..\Textures\Item\Resource\Journal\Jecrell_JournalBook_m.png = ..\Textures\Item\Resource\Journal\Jecrell_JournalBook_m.png
+		..\Textures\Item\Resource\Journal\Jecrell_Scroll.png = ..\Textures\Item\Resource\Journal\Jecrell_Scroll.png
+		..\Textures\Item\Resource\Journal\Jecrell_Tablet.png = ..\Textures\Item\Resource\Journal\Jecrell_Tablet.png
+		..\Textures\Item\Resource\Journal\Jecrell_Tablet_Unfinished.png = ..\Textures\Item\Resource\Journal\Jecrell_Tablet_Unfinished.png
+		..\Textures\Item\Resource\Journal\Jecrell_xJournal.png = ..\Textures\Item\Resource\Journal\Jecrell_xJournal.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unfinished", "Unfinished", "{CCD894A0-8ED3-4666-9796-E663B99DF4F4}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Item\Unfinished\Jecrell_Page.png = ..\Textures\Item\Unfinished\Jecrell_Page.png
+		..\Textures\Item\Unfinished\Jecrell_Scroll.png = ..\Textures\Item\Unfinished\Jecrell_Scroll.png
+		..\Textures\Item\Unfinished\Jecrell_Tablet.png = ..\Textures\Item\Unfinished\Jecrell_Tablet.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D995AE60-C11C-426B-B08B-2F73B92CA59C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\Source\Jecrell_GasLamp.psd = ..\Textures\Source\Jecrell_GasLamp.psd
+		..\Textures\Source\Jecrell_GasStreetLamp.psd = ..\Textures\Source\Jecrell_GasStreetLamp.psd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A04320E5-E186-46D8-A71F-7317548948BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commands", "Commands", "{5B89F8CF-8D22-4B2D-9EA8-5054898B42A7}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\UI\Commands\jecrellDestroyWriting.png = ..\Textures\UI\Commands\jecrellDestroyWriting.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Icons", "Icons", "{2A9D98CC-C604-4899-98A5-631E53A08058}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThingCategories", "ThingCategories", "{C564C07D-D566-41CE-A25A-0C3C0662B850}"
+	ProjectSection(SolutionItems) = preProject
+		..\Textures\UI\Icons\ThingCategories\jecrellBook.png = ..\Textures\UI\Icons\ThingCategories\jecrellBook.png
+		..\Textures\UI\Icons\ThingCategories\jecrellScroll.png = ..\Textures\UI\Icons\ThingCategories\jecrellScroll.png
+		..\Textures\UI\Icons\ThingCategories\jecrellTablet.png = ..\Textures\UI\Icons\ThingCategories\jecrellTablet.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoshopFiles", "PhotoshopFiles", "{63E13410-8471-4E93-931F-5685FB98F352}"
+	ProjectSection(SolutionItems) = preProject
+		..\PhotoshopFiles\Jecrell_Bookcase_south.psd = ..\PhotoshopFiles\Jecrell_Bookcase_south.psd
+		..\PhotoshopFiles\Jecrell_Journal.psd = ..\PhotoshopFiles\Jecrell_Journal.psd
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +345,52 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8249E980-4FF0-4477-8700-F991C1735F2D} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{76A5B862-40A7-45B0-AB80-D18E152D5337} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{42FD1560-848F-4DCA-9688-3142EBEE24A9} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{F0D367DE-2CB7-425B-BAB4-24594ABB2E5B} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{A6B6D81B-EB48-4BE5-A5D5-CC622BB2C25E} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{896E197C-65EA-4A32-AD07-869ADF6FA00F} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{67C90F4D-4E4B-4AAB-B9BD-E88233ED09A1} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{5CBDBDAE-E303-4F7E-8397-E2A3B66A8D35} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{B9D929BD-55E2-425E-B42B-E3CC6D82B99E} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{78AC3EEB-AC84-4651-A807-B268533B9200} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{FCC79EAE-3C4D-4DB9-B169-7D6D1051908C} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{FC4A4109-4385-45FD-B9DA-A6E2A7993C5C} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{2A69D46E-59F9-4487-A31B-7744C615FB99} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{6DEA5144-285A-4E6E-B44A-A32958713E8D} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{75C2A9A2-39EF-43FF-A525-08F9E63E3007} = {557D0B54-F7B0-4A57-AC99-71782F6B5B1E}
+		{EF67730D-F628-49B6-973C-2FCA87B1E686} = {FA6F2B86-35F2-45D7-9927-857B0DEC9035}
+		{AE0E6DE9-4FF6-409F-BAE3-EC1490A0BAA5} = {EF67730D-F628-49B6-973C-2FCA87B1E686}
+		{28E0C7AA-1EEF-4212-B359-986508B0F26E} = {EF67730D-F628-49B6-973C-2FCA87B1E686}
+		{7C4C1A19-F178-4268-9C31-78AAB87B21BF} = {28E0C7AA-1EEF-4212-B359-986508B0F26E}
+		{EB0AB083-B45D-4611-BE87-5038452826BE} = {7C4C1A19-F178-4268-9C31-78AAB87B21BF}
+		{DDC63770-9398-4E8D-8048-79885BABE1F6} = {B15EF0CB-0B11-4EC9-BEA4-C6FEEA3BF240}
+		{2F2E7DC9-C6EB-4082-9FF8-829124DED1A7} = {B15EF0CB-0B11-4EC9-BEA4-C6FEEA3BF240}
+		{F69978C9-4C56-4C13-8BD6-1780FE31FD0E} = {53C185B7-1E46-4E78-AA6B-189B3284DD31}
+		{2B68E258-EDA2-42FC-A508-6003D5EC59B1} = {F69978C9-4C56-4C13-8BD6-1780FE31FD0E}
+		{B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3} = {F69978C9-4C56-4C13-8BD6-1780FE31FD0E}
+		{66C6FBC8-B0DD-4E99-8E9C-52A60D062F72} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{ACE1810A-F48D-401A-AFC6-885365D7A335} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{24F545CE-3E78-4A62-92FB-B6A41870D950} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{6FFCBA99-A6CE-4656-9494-044087BC2027} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{C5240EA7-78D4-49D3-BC44-CD5AEE071350} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{ED7B310B-A37A-404F-9F3C-32D5E3B44C05} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{7428B8CC-4840-4A4D-9757-B083A0034FE4} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{107DE355-F3DA-41FF-9962-B394F125321D} = {B84A2851-6AC9-4B3C-B75D-B969F1D8E2D3}
+		{5039A9D1-8BBC-426D-9305-4CCD469472A0} = {53C185B7-1E46-4E78-AA6B-189B3284DD31}
+		{05229033-52A2-4D4B-85C9-80106729F1BC} = {5039A9D1-8BBC-426D-9305-4CCD469472A0}
+		{44D8FEBA-0EB2-4C0D-A05D-5317E4B56CF6} = {05229033-52A2-4D4B-85C9-80106729F1BC}
+		{CCD894A0-8ED3-4666-9796-E663B99DF4F4} = {5039A9D1-8BBC-426D-9305-4CCD469472A0}
+		{D995AE60-C11C-426B-B08B-2F73B92CA59C} = {53C185B7-1E46-4E78-AA6B-189B3284DD31}
+		{A04320E5-E186-46D8-A71F-7317548948BA} = {53C185B7-1E46-4E78-AA6B-189B3284DD31}
+		{5B89F8CF-8D22-4B2D-9EA8-5054898B42A7} = {A04320E5-E186-46D8-A71F-7317548948BA}
+		{2A9D98CC-C604-4899-98A5-631E53A08058} = {A04320E5-E186-46D8-A71F-7317548948BA}
+		{C564C07D-D566-41CE-A25A-0C3C0662B850} = {2A9D98CC-C604-4899-98A5-631E53A08058}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5ADA56B-6C2C-4CC2-93F4-3F9D1C4450FC}
 	EndGlobalSection
 EndGlobal

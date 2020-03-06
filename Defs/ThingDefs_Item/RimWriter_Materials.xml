@@ -16,7 +16,7 @@
     </costList>
     <recipeMaker>
       <productCount>100</productCount>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
       <soundWorking>RimWriter_SoundManualPencil</soundWorking>
@@ -38,7 +38,7 @@
     </stuffCategories>
     <recipeMaker>
       <productCount>100</productCount>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
       <soundWorking>RimWriter_SoundManualPencil</soundWorking>
@@ -60,7 +60,7 @@
     </stuffCategories>
     <recipeMaker>
       <productCount>100</productCount>
-      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Artistic</workSkill>
       <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
       <soundWorking>RimWriter_SoundManualPencil</soundWorking>

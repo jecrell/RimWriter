@@ -38,9 +38,9 @@
     <designationCategory>Joy</designationCategory>
     <designationHotKey>Misc2</designationHotKey>
 	<comps>
-	  <li Class="CompProperties_RoomIdentifier">
+	  <!--<li Class="CompProperties_RoomIdentifier">
 		<roomStat>Impressiveness</roomStat>
-	  </li>
+	  </li>-->
 	  <li Class="RimWriter.CompProperties_StorageGraphic">
 	    <graphicEmpty>
 		  <texPath>Building/Production/LibraryBookcase/Jecrell_BookcaseEmpty</texPath>
@@ -110,9 +110,9 @@
 	  <drawSize>3</drawSize>
     </graphicData>
 	<comps Inherit="False">
-	  <li Class="CompProperties_RoomIdentifier">
+	  <!--<li Class="CompProperties_RoomIdentifier">
 		<roomStat>Impressiveness</roomStat>
-	  </li>
+	  </li>-->
 	  <li Class="RimWriter.CompProperties_StorageGraphic">
 	    <graphicEmpty>
 		  <texPath>Building/Production/ShortBookcase/Jecrell_ShortBookcaseEmpty</texPath>
