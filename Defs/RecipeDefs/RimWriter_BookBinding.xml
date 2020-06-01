@@ -2,6 +2,19 @@
 <Defs>
 
     <RecipeDef ParentName="MakeBookAtTypewriter">
+        <defName>RimWriter_MakeSkillbookAtTypewriter</defName>
+        <label>author a skillbook at a typewriter</label>
+        <description>Makes a skillbook at a typewriter by typing out flattened stationery such as paper or parchment and binding together the pieces.\nSkillbooks represent the collected experiences of their writers, unlike books which can often have elements of fiction.</description>
+        <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
+        <jobString>Typing a skillbook.</jobString>
+        <workAmount>100000</workAmount>
+        <products Inherit="False">
+            <Jecrell_Skillbook>1</Jecrell_Skillbook>
+        </products>
+    </RecipeDef>
+
+
+    <RecipeDef ParentName="MakeBookAtTypewriter">
         <defName>RimWriter_MakeJournalAtTypewriter</defName>
         <label>author a journal at a typewriter</label>
         <description>Makes a journal at a typewriter by typing out flattened stationery such as paper or parchment and binding together the pieces.\nJournals are usually concrete accounts of events or research, unlike books which can often have elements of fiction.</description>
@@ -25,6 +38,19 @@
         </recipeUsers>
         <products Inherit="False">
             <Jecrell_Book>1</Jecrell_Book>
+        </products>
+    </RecipeDef>
+    
+    
+    <RecipeDef ParentName="MakeBookAtDesk">
+        <defName>RimWriter_MakeSkillbookAtTable</defName>
+        <label>author a skillbook at a desk</label>
+        <description>Makes a skillbook at a writing table by inking out flattened stationery such as paper or parchment and binding together the pieces.\nSkillbooks represent the collected experiences of their writers, unlike books which can often have elements of fiction.</description>
+        <soundWorking>RimWriter_TableWriting</soundWorking>
+        <jobString>Making a skillbook.</jobString>
+        <workAmount>150000</workAmount>
+        <products Inherit="False">
+            <Jecrell_Skillbook>1</Jecrell_Skillbook>
         </products>
     </RecipeDef>
 
