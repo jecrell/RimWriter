@@ -46,7 +46,6 @@
         <defName>RimWriter_MakeSkillbookAtTable</defName>
         <label>author a skillbook at a desk</label>
         <description>Makes a skillbook at a writing table by inking out flattened stationery such as paper or parchment and binding together the pieces.\nSkillbooks represent the collected experiences of their writers, unlike books which can often have elements of fiction.</description>
-        <soundWorking>RimWriter_TableWriting</soundWorking>
         <jobString>Making a skillbook.</jobString>
         <workAmount>150000</workAmount>
         <products Inherit="False">
