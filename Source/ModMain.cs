@@ -1,5 +1,5 @@
 using System;
-using Harmony;
+using HarmonyLib;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -39,6 +39,7 @@ namespace RimWriter
             }
         }
 
+
         public override void WriteSettings()
         {
             Scribe_Values.Look(ref this.simpleRecipes, "complexRecipes", false);
@@ -47,7 +48,7 @@ namespace RimWriter
 
         private void ApplySettings()
         {
-            Predicate<ThingDefCountClass> woodPred = x => x.thingDef == ThingDefOf.WoodLog;
+            Predicate<ThingDefCountClass> woodPred = x => x.thingDef == GetDef("WoodLog");
             Predicate<ThingDefCountClass> pagesPred = x =>
                 x.thingDef == GetDef("Jecrell_PageBook") ||
                 x.thingDef == GetDef("Jecrell_PageHandwritten") ||
@@ -55,7 +56,7 @@ namespace RimWriter
                 x.thingDef == GetDef("Jecrell_PageJournal") ||
                 x.thingDef == GetDef("Jecrell_Page");
             var pagesTDC = new ThingDefCountClass(GetDef("Jecrell_Page"), 200);
-            var logsTDC = new ThingDefCountClass(ThingDefOf.WoodLog, 10);
+            var logsTDC = new ThingDefCountClass(GetDef("WoodLog"), 10);
             if (!simpleRecipes)
             {
                 if (GetDef("Jecrell_BookJournal") is ThingDef bookJournal)

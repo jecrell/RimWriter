@@ -1,7 +1,0 @@
-﻿scroll
-
-scripture
-parchment
-document
-manuscript
-roll
