@@ -46,7 +46,7 @@ Y
     <label>bookshelves</label>
     <description>Allows your colony to construct shelves for scrolls, journals, and books.</description>
     <baseCost>50</baseCost>
-    <techLevel>Neolithic</techLevel>
+    <techLevel>Medieval</techLevel>
     <prerequisites>
       <li>RimWriter_TechPrimitiveWriting</li>
       <li>ComplexFurniture</li>
