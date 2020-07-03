@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="Jecrell_Book">
+    <defName>Jecrell_Skillbook</defName>
+	<label>skillbook</label>
+    <thingClass>RimWriter.GuideBook</thingClass>
+	<description>A skillbook used to help characters with their professions and skill improvement.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  	  <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+	  <drawSize>0.5</drawSize>
+    </graphicData>	
+    <recipeMaker Inherit="False">
+    </recipeMaker>	
+    <statBases>
+	  <MarketValue>4000</MarketValue>
+	  <SellPriceFactor>0.05</SellPriceFactor>
+    </statBases>
+	<comps Inherit="False">
+      <li Class="CompProperties_Forbiddable"/>	
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerJournal</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Guide</descriptionMaker>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Books</li>
+    </tradeTags>
+  </ThingDef>
+  
+</Defs>

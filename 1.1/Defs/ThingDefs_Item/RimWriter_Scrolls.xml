@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="Jecrell_Book">
+	<defName>Jecrell_LeatherScroll</defName>
+	<label>scroll</label>
+	<description>A leather scroll telling of an event that occurred in the colony.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_Scroll</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  	  <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
+	  <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+	  <Mass>0.05</Mass>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>30</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>0.6</SellPriceFactor>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>Items</li>
+	  <li>RimWriter_Scrolls</li>
+    </thingCategories>
+	<stuffCategories Inherit="False">
+      <li>Leathery</li>
+    </stuffCategories>
+    <techLevel>Neolithic</techLevel>
+    <filthLeaving>Filth_Trash</filthLeaving>
+    <recipeMaker>
+      <workSpeedStat>ResearchSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <unfinishedThingDef>UnfinishedWritingScroll</unfinishedThingDef>
+      <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>ButcherSpot</li>
+        <li>TableButcher</li>
+        <li>RimWriter_TableWriting</li>
+      </recipeUsers>
+      <researchPrerequisite>RimWriter_TechSimpleWriting</researchPrerequisite>
+    </recipeMaker>
+	<comps>
+      <li Class="CompProperties_Forbiddable"/>	
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerScroll</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

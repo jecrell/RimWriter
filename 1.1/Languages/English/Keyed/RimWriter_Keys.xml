@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!-- 4-6-20 -->
+
+  <RimWriter_WarningNoSkill>{0} has no skill labeled {1}.</RimWriter_WarningNoSkill>
+  <RimWriter_WarningSkillDisabled>{0}'s {1} skill is disabled. They will receive no benefit from this skillbook.</RimWriter_WarningSkillDisabled>
+
+<!-- 9-29-18 -->
+
+  <RimWriter_ApplySettings>Apply settings</RimWriter_ApplySettings>
+  <RimWriter_ComplexRecipes>Enable simple recipes</RimWriter_ComplexRecipes>
+  <RimWriter_ComplexRecipesTip>Enabling simple recipes removes steps to creating books for shorter playthroughs.</RimWriter_ComplexRecipesTip>
+
+ <!-- 9-25-18 -->
+   <RimWriter_Read>Read {0}</RimWriter_Read>
+   <RimWriter_NoInternalStorage>Storage unavailable</RimWriter_NoInternalStorage>
+   <RimWriter_CannotRead>Cannot read {0}</RimWriter_CannotRead>
+
+ <!-- 9-24-18 -->
+  <RimWriter_GuideTitleWithAuthor>{0}'s {1} Skillbook</RimWriter_GuideTitleWithAuthor>
+  <RimWriter_GuideTitle>{0} Skillbook</RimWriter_GuideTitle>
+  <RimWriter_GuideSkillDesc>This particular skillbook teaches the {0} skill at a rate of {1} efficiency.</RimWriter_GuideSkillDesc>
+  <RimWriter_Destroy>Trash it</RimWriter_Destroy>
+  <RimWriter_DestroyDesc>Quickly disposes of this {0} in its entirety, as if it never existed... with perhaps a little trash left behind.</RimWriter_DestroyDesc>
+
+ <!-- 8-26-18 -->
+  <RimWriter_Inventory>Inventory</RimWriter_Inventory>
+  <RimWriter_XSlotsForBooks>Can hold a total of {0} books</RimWriter_XSlotsForBooks>
+  <RimWriter_BookTitle>{0} by {1}</RimWriter_BookTitle>
+  <RimWriter_RetrieveBook>Retrieve Book</RimWriter_RetrieveBook>
+  <RimWriter_RetrieveBookDesc>Find and remove a particular book from the bookcase.</RimWriter_RetrieveBookDesc>
+  <RimWriter_ContainsXBooks>Contains {0} books</RimWriter_ContainsXBooks>
+</LanguageData>
