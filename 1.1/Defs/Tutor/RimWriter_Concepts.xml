@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ConceptDef>
+    <defName>Jecrell_TypewriterTable</defName>
+    <label>Writing</label>
+    <priority>50</priority>
+    <helpText>Pawns can use the typewriting table to give themselves joy and reduce stress. If Call of Cthulhu is enabled, this station will also reduce the severity of insanity at a faster rate. Pawns can also create journal items. Currently, these are rudimentary, and can be destroyed. They will be expanded upon later.</helpText>
+  </ConceptDef>
+
+</Defs>

@@ -1,0 +1,21 @@
+﻿book
+
+novel
+storybook
+writing
+essay
+
+tome
+manual
+anthology
+pocket book
+guide
+notebook
+textbook
+
+work
+poem
+lullaby
+song
+tune
+codex
