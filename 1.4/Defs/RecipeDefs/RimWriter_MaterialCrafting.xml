@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="RimWriter_MakePage">
+    <defName>RimWriter_MakePageFast</defName>
+    <workAmount>1200</workAmount>
+    <recipeUsers Inherit="False">
+      <li>RimWriter_PapermakingBenchElectric</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef Name="RimWriter_MakePage">
+    <defName>RimWriter_MakePage</defName>
+    <label>make 100 pages at papermaking bench</label>
+    <description>Makes around one hundred pages from a few logs of wood.</description>
+    <jobString>Making pages.</jobString>
+    <workAmount>3500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <effectWorking>Tailor</effectWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>RimWriter_PapermakingBench</li>
+    </recipeUsers>
+    <products>
+      <Jecrell_Paper>100</Jecrell_Paper>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RimWriter_MakeParchment">
+    <defName>RimWriter_MakeParchmentFast</defName>
+    <workAmount>1200</workAmount>
+    <recipeUsers Inherit="False">
+      <li>RimWriter_PapermakingBenchElectric</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef Name="RimWriter_MakeParchment">
+    <defName>RimWriter_MakeParchment</defName>
+    <label>make 100 parchment at papermaking bench</label>
+    <description>Makes around one hundred parchments from leather.</description>
+    <jobString>Making parchment.</jobString>
+    <workAmount>3500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <effectWorking>Tailor</effectWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>RimWriter_PapermakingBench</li>
+    </recipeUsers>
+    <products>
+      <Jecrell_Parchment>100</Jecrell_Parchment>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Leathers</li>
+      </categories>
+    </fixedIngredientFilter>
+    <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="RimWriter_MakeClothPaper">
+    <defName>RimWriter_MakeClothPaperFast</defName>
+    <workAmount>1200</workAmount>
+    <recipeUsers Inherit="False">
+      <li>RimWriter_PapermakingBenchElectric</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef Name="RimWriter_MakeClothPaper">
+    <defName>RimWriter_MakeClothPaper</defName>
+    <label>make 100 cloth paper at papermaking bench</label>
+    <description>Makes around one hundred cloth papers from various types of fabric.</description>
+    <jobString>Making cloth paper.</jobString>
+    <workAmount>3500</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <effectWorking>Tailor</effectWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>RimWriter_PapermakingBench</li>
+    </recipeUsers>
+    <products>
+      <Jecrell_ClothPaper>100</Jecrell_ClothPaper>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+  </RecipeDef>
+</Defs>

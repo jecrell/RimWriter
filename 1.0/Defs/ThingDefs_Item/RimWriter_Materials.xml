@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 
+  Note to future self. 
+  Do not try to make the recipe makers abstract.
+  It doesn't work.
+   -->
+  <ThingDef ParentName="Jecrell_Page">
+    <defName>Jecrell_Paper</defName>
+    <label>paper</label>
+    <description>A material made from wood used for book making.</description>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+    <recipeMaker>
+      <productCount>100</productCount>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+      <soundWorking>RimWriter_SoundManualPencil</soundWorking>
+      <recipeUsers>
+        <li>RimWriter_PapermakingBench</li>
+        <li>RimWriter_PapermakingBenchElectric</li>
+      </recipeUsers>
+      <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="Jecrell_Page">
+    <defName>Jecrell_Parchment</defName>
+    <label>parchment</label>
+    <description>A long lasting material made from hides or skin used for book making.</description>
+    <costStuffCount>5</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <recipeMaker>
+      <productCount>100</productCount>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+      <soundWorking>RimWriter_SoundManualPencil</soundWorking>
+      <recipeUsers>
+        <li>RimWriter_PapermakingBench</li>
+        <li>RimWriter_PapermakingBenchElectric</li>
+      </recipeUsers>
+      <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="Jecrell_Page">
+    <defName>Jecrell_ClothPaper</defName>
+    <label>cloth paper</label>
+    <description>A long lasting material made from fabric used for book making, sometimes also referred to as fabric paper or rag paper.</description>
+    <costStuffCount>5</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+    </stuffCategories>
+    <recipeMaker>
+      <productCount>100</productCount>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Artistic</workSkill>
+      <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+      <soundWorking>RimWriter_SoundManualPencil</soundWorking>
+      <recipeUsers>
+        <li>RimWriter_PapermakingBench</li>
+        <li>RimWriter_PapermakingBenchElectric</li>
+      </recipeUsers>
+      <researchPrerequisite>RimWriter_TechHandWriting</researchPrerequisite>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef Name="Jecrell_Page" Abstract="True">
+    <thingClass>RimWriter.Page</thingClass>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_Journal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <category>Item</category>
+    <stackLimit>5000</stackLimit>
+    <pathCost>10</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>0.05</Mass>
+      <WorkToMake>1500</WorkToMake>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>2.0</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <thingCategories>
+      <li>RimWriter_BookMaterials</li>
+    </thingCategories>
+    <filthLeaving>Filth_Trash</filthLeaving>
+  </ThingDef>
+</Defs>

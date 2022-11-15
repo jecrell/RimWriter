@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Jecrell_Book">
+    <defName>Jecrell_BookJournal</defName>
+    <label>journal</label>
+    <description>A typed collection of journal pages.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerJournal</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Journal</descriptionMaker>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

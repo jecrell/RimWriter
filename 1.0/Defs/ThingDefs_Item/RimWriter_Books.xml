@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Jecrell_Book">
+    <defName>Jecrell_Book</defName>
+    <label>book</label>
+    <description>A collection of pages.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_Book</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerBook</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="Jecrell_Book">
+    <defName>Jecrell_Guidebook</defName>
+    <label>skillbook</label>
+    <thingClass>RimWriter.GuideBook</thingClass>
+    <description>A skillbook used to help characters with their professions and skill improvement.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_JournalBook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <recipeMaker Inherit="False">
+    </recipeMaker>
+    <statBases>
+      <MarketValue>4000</MarketValue>
+      <SellPriceFactor>0.05</SellPriceFactor>
+    </statBases>
+    <comps Inherit="False">
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerJournal</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Guide</descriptionMaker>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+      <li>Books</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="Jecrell_Book" Abstract="True">
+    <thingClass>RimWriter.ThingBook</thingClass>
+    <techLevel>Neolithic</techLevel>
+    <category>Item</category>
+    <pathCost>10</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <Mass>1</Mass>
+      <WorkToMake>3500</WorkToMake>
+      <MaxHitPoints>20</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>1.1</SellPriceFactor>
+    </statBases>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>5</costStuffCount>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <thingCategories>
+      <li>Items</li>
+      <li>RimWriter_Books</li>
+    </thingCategories>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <filthLeaving>Filth_Trash</filthLeaving>
+  </ThingDef>
+</Defs>
