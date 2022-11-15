@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ConceptDef>
+    <defName>RimWriter_PaperMaking</defName>
+    <label>paper making</label>
+    <priority>50</priority>
+    <helpText>Paper and parchment can be created at the paper making table. Paper is crafted from logs, and parchment is crafted from leather. Both can be used as materials to make books.</helpText>
+    <needsOpportunity>true</needsOpportunity>
+  </ConceptDef>
+  <ConceptDef>
+    <defName>RimWriter_BookBurning</defName>
+    <label>book burning</label>
+    <priority>50</priority>
+    <helpText>Books and scrolls can make your colonists entertained, but can also lead to harmful ideas and attempts to overthrow the bourgeoisie.\n\nIf you want to keep down the proletariat in your colony, or if you enjoy reenacting Fahrenheit 451, you have the option of burning these books at a campfire or electric crematorium. </helpText>
+    <needsOpportunity>true</needsOpportunity>
+    <highlightTags>
+      <li>DesignationCategoryButton-Temperature-Closed</li>
+      <li>Designator-Build-Campfire</li>
+      <li>ITab-Bills-Closed</li>
+    </highlightTags>
+  </ConceptDef>
+</Defs>

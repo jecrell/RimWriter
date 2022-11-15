@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JoyGiverDef>
+    <defName>RimWriter_ReadABookJG</defName>
+    <giverClass>RimWriter.JoyGiver_ReadABook</giverClass>
+    <baseChance>1.5</baseChance>
+    <thingDefs>
+      <li>Jecrell_Bookcase</li>
+    </thingDefs>
+    <jobDef>RimWriter_ReadABook</jobDef>
+    <joyKind>Jecrell_Writing</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <JoyGiverDef>
+    <defName>RimWriter_FreeWriteJG</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>1.5</baseChance>
+    <thingDefs>
+      <li>RimWriter_TableWriting</li>
+      <li>RimWriter_TableTypewriter</li>
+    </thingDefs>
+    <jobDef>RimWriter_FreeWrite</jobDef>
+    <joyKind>Jecrell_Writing</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+  <JoyGiverDef>
+    <defName>RimWriter_AutoWriteJG</defName>
+    <giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+    <baseChance>1.5</baseChance>
+    <thingDefs>
+      <li>RimWriter_TableWriting</li>
+      <li>RimWriter_TableTypewriter</li>
+    </thingDefs>
+    <jobDef>RimWriter_AutoWrite</jobDef>
+    <joyKind>Jecrell_Writing</joyKind>
+    <requiredCapacities>
+      <li>Sight</li>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </JoyGiverDef>
+</Defs>

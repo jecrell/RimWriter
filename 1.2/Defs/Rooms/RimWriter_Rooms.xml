@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RoomRoleDef>
+    <defName>RimWriter_Library</defName>
+    <label>library</label>
+    <workerClass>RimWriter.RoomRoleWorker_Library</workerClass>
+    <relatedStats>
+      <li>Beauty</li>
+      <li>Cleanliness</li>
+      <li>Wealth</li>
+      <li>Space</li>
+      <li>Impressiveness</li>
+    </relatedStats>
+  </RoomRoleDef>
+</Defs>

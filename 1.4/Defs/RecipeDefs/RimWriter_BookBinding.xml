@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="MakeBookAtTypewriter">
+    <defName>RimWriter_MakeSkillbookAtTypewriter</defName>
+    <label>author a skillbook at a typewriter</label>
+    <description>Makes a skillbook at a typewriter by typing out flattened stationery such as paper or parchment and binding together the pieces.\nSkillbooks represent the collected experiences of their writers, unlike books which can often have elements of fiction.</description>
+    <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
+    <jobString>Typing a skillbook.</jobString>
+    <workAmount>100000</workAmount>
+    <products Inherit="False">
+      <Jecrell_Skillbook>1</Jecrell_Skillbook>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookAtTypewriter">
+    <defName>RimWriter_MakeJournalAtTypewriter</defName>
+    <label>author a journal at a typewriter</label>
+    <description>Makes a journal at a typewriter by typing out flattened stationery such as paper or parchment and binding together the pieces.\nJournals are usually concrete accounts of events or research, unlike books which can often have elements of fiction.</description>
+    <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
+    <jobString>Typing a journal.</jobString>
+    <products Inherit="False">
+      <Jecrell_BookJournal>1</Jecrell_BookJournal>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookAtDesk" Name="MakeBookAtTypewriter">
+    <defName>RimWriter_MakeBookAtTypewriter</defName>
+    <label>author a book at a typewriter</label>
+    <description>Makes a book at a typewriter by typing out on flattened stationery such as paper or parchment and binding together the pieces.</description>
+    <soundWorking>RimWriter_SoundManualTypewriter</soundWorking>
+    <jobString>Typing a book.</jobString>
+    <workAmount>10000</workAmount>
+    <recipeUsers Inherit="False">
+      <li>RimWriter_TableTypewriter</li>
+    </recipeUsers>
+    <products Inherit="False">
+      <Jecrell_Book>1</Jecrell_Book>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookAtDesk">
+    <defName>RimWriter_MakeSkillbookAtTable</defName>
+    <label>author a skillbook at a desk</label>
+    <description>Makes a skillbook at a writing table by inking out flattened stationery such as paper or parchment and binding together the pieces.\nSkillbooks represent the collected experiences of their writers, unlike books which can often have elements of fiction.</description>
+    <jobString>Making a skillbook.</jobString>
+    <workAmount>150000</workAmount>
+    <products Inherit="False">
+      <Jecrell_Skillbook>1</Jecrell_Skillbook>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookAtDesk">
+    <defName>RimWriter_MakeJournalAtTable</defName>
+    <label>author a journal at a desk</label>
+    <description>Makes a journal at a writing table by inking out flattened stationery such as paper or parchment and binding together the pieces.\nJournals are usually concrete accounts of events or research, unlike books which can often have elements of fiction.</description>
+    <jobString>Making a journal.</jobString>
+    <products Inherit="False">
+      <Jecrell_BookJournal>1</Jecrell_BookJournal>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookByHand" Name="MakeBookAtDesk">
+    <defName>RimWriter_MakeBookAtTable</defName>
+    <label>author a book at a desk</label>
+    <description>Makes a book at a writing table by inking out on flattened stationery such as paper or parchment and binding together the pieces.</description>
+    <jobString>Making a book.</jobString>
+    <workAmount>15000</workAmount>
+    <recipeUsers Inherit="False">
+      <li>RimWriter_TableWriting</li>
+    </recipeUsers>
+    <products Inherit="False">
+      <Jecrell_Book>1</Jecrell_Book>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="MakeBookByHand">
+    <defName>RimWriter_MakeJournalByHand</defName>
+    <label>author a journal by hand</label>
+    <description>Makes a journal by hand at a crafting spot by writing out flattened stationery such as paper or parchment and binding together the pieces.\nJournals are usually concrete accounts of events or research, unlike books which can often have elements of fiction.</description>
+    <jobString>Making a journal by hand.</jobString>
+    <products Inherit="False">
+      <Jecrell_BookJournal>1</Jecrell_BookJournal>
+    </products>
+  </RecipeDef>
+  <RecipeDef Name="MakeBookByHand">
+    <defName>RimWriter_MakeBook</defName>
+    <label>make a book by hand</label>
+    <description>Makes a book by hand at a crafting spot by writing out flattened stationery such as paper or parchment and binding together the pieces.</description>
+    <jobString>Making a book by hand.</jobString>
+    <workAmount>20000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Artistic</workSkill>
+    <unfinishedThingDef>UnfinishedWriting</unfinishedThingDef>
+    <soundWorking>RimWriter_SoundManualPencil</soundWorking>
+    <effectWorking>Tailor</effectWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
+    <products>
+      <Jecrell_Book>1</Jecrell_Book>
+    </products>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>RimWriter_BookMaterials</li>
+          </categories>
+        </filter>
+        <count>100</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RimWriter_BookMaterials</li>
+        <li>Leathers</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>

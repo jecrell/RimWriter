@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Jecrell_Book">
+    <defName>Jecrell_Tablet</defName>
+    <label>tablet</label>
+    <description>A stone chiseled tablet telling of an event that occurred in the colony.</description>
+    <graphicData>
+      <texPath>Item/Resource/Journal/Jecrell_Tablet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <onGroundRandomRotateAngle>15</onGroundRandomRotateAngle>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+      <WorkToMake>4000</WorkToMake>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+      <SellPriceFactor>0.25</SellPriceFactor>
+    </statBases>
+    <thingCategories Inherit="False">
+      <li>Items</li>
+      <li>RimWriter_Tablets</li>
+    </thingCategories>
+    <stuffCategories Inherit="False">
+      <li>Stony</li>
+    </stuffCategories>
+    <techLevel>Neolithic</techLevel>
+    <filthLeaving>Filth_RubbleRock</filthLeaving>
+    <recipeMaker>
+      <workSpeedStat>SculptingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <unfinishedThingDef>UnfinishedWritingTablet</unfinishedThingDef>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableStonecutter</li>
+      </recipeUsers>
+      <researchPrerequisite>RimWriter_TechPrimitiveWriting</researchPrerequisite>
+    </recipeMaker>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>RimWriterNamerTablet</nameMaker>
+        <descriptionMaker>RimWriterArtDescription_Book</descriptionMaker>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
